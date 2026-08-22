@@ -229,7 +229,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       "Teile die wichtigsten Details mit uns.\n\nWir schauen uns dein Projekt persönlich an und erstellen ein Angebot, das zu deiner Marke passt.",
     imprint: "Impressum",
     privacy: "Datenschutz",
-    terms: "Terms",
+    terms: "AGB",
     aiTransparency: "AI Transparency",
     legalLabel: "Legal",
   },
