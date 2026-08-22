@@ -297,10 +297,38 @@ export function Datenschutz() {
       <p>
         <strong>Legal bases</strong>
         <br />
-        Where the GDPR applies, we process data based on: performance of a
-        contract or steps prior to a contract · our legitimate interest in
-        operating a secure website and communicating with prospects/clients ·
-        and legal obligations where applicable (for example accounting).
+        Where the GDPR applies, we process personal data on the following legal
+        bases:
+      </p>
+
+      <p>
+        <strong>Contract and pre-contractual steps (Art. 6(1)(b) GDPR)</strong>
+        <br />
+        To respond to project inquiries, prepare offers, communicate about
+        potential or ongoing projects and provide our services.
+      </p>
+
+      <p>
+        <strong>Legitimate interests (Art. 6(1)(f) GDPR)</strong>
+        <br />
+        To operate and secure our website, maintain necessary technical logs and
+        communicate efficiently with clients and prospective clients.
+      </p>
+
+      <p>
+        <strong>Legal obligations (Art. 6(1)(c) GDPR)</strong>
+        <br />
+        Where processing is necessary to comply with legal obligations
+        applicable to our business, including accounting, tax and
+        record-keeping requirements.
+      </p>
+
+      <p>
+        <strong>Consent (Art. 6(1)(a) GDPR)</strong>
+        <br />
+        Where processing is based on your consent, you may withdraw that consent
+        at any time with effect for the future. The withdrawal does not affect
+        the lawfulness of processing carried out before the withdrawal.
       </p>
 
       <p>
