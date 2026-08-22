@@ -152,8 +152,7 @@
   .studio-lede-c {
     display: block;
     letter-spacing: 0.04em;
-    text-align: justify;
-    text-align-last: left;
+    text-align: left;
   }
 
   .studio-lede-a {
@@ -167,7 +166,6 @@
 
   .studio-lede-c {
     margin-top: 1.1em;
-    text-align: left;
   }
 }
 
