@@ -1513,6 +1513,9 @@ export function Terms() {
         <br />
         We do not guarantee any specific commercial, advertising, engagement,
         conversion, reach or sales results from the use of the deliverables.
+        Performance may depend on numerous factors outside our control,
+        including the Client’s product, pricing, audience, platform, advertising
+        strategy and market conditions.
       </p>
 
       <p>
