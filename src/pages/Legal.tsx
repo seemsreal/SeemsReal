@@ -1731,10 +1731,21 @@ export function Terms() {
       <p>
         <strong>15. Delivery</strong>
         <br />
-        Estimated delivery timelines are stated in the offer and begin once we
-        have received payment (where required) and complete briefing materials.
-        Delays in your materials, feedback, or approvals extend the timeline
-        accordingly.
+        Estimated delivery timelines are stated in the individual offer and
+        begin once the required payment and complete briefing materials have
+        been received, unless otherwise agreed.
+        <br />
+        <br />
+        Final deliverables are provided digitally in the formats and scope
+        specified in the individual offer.
+        <br />
+        <br />
+        Delivery dates and timelines are estimates unless expressly agreed as
+        binding in writing.
+        <br />
+        <br />
+        Delays caused by late Client materials, feedback or approvals may
+        extend the delivery timeline accordingly.
       </p>
 
       <p>
