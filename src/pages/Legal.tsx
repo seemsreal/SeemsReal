@@ -1660,14 +1660,32 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>12. Payment and cancellation</strong>
+        <strong>12. Payment</strong>
         <br />
-        Unless otherwise agreed: Package 01 is payable in full before work
-        starts. Package 02 and Bespoke projects may require a deposit stated in
-        the offer, with the balance due before final delivery. If you cancel
-        after work has begun, work already performed and costs incurred remain
-        payable. Deposits are non-refundable once production has started, unless
-        mandatory law provides otherwise.
+        Unless otherwise agreed in the individual offer, Package 01 (The Edit)
+        is payable in full before work begins.
+        <br />
+        <br />
+        Package 02 (The Campaign) and Bespoke projects may require a deposit as
+        specified in the individual offer, with the remaining balance due before
+        final delivery.
+        <br />
+        <br />
+        Payments must be made using the payment method and payment details
+        stated on the invoice or individual offer.
+        <br />
+        <br />
+        Work begins once the required payment and complete briefing materials
+        have been received, unless otherwise agreed.
+        <br />
+        <br />
+        SEEMS REAL Studio may pause work or withhold final deliverables while an
+        agreed payment is outstanding. Any resulting delay may extend the
+        originally estimated delivery timeline.
+        <br />
+        <br />
+        Usage rights in the final visuals are granted only upon full payment of
+        the respective project.
       </p>
 
       <p>
