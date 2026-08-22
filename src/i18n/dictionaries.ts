@@ -163,7 +163,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ledeRest:
       "Wir nutzen AI, um deine Vision in hochwertige Bildwelten zu verwandeln, ohne den Zeitaufwand, die Kosten und die Komplexität eines klassischen Fotoshootings.",
     ledeClose: "Dein Produkt. Deine Vision. Made to seem real.",
-    selectedWork: "Selected work",
+    selectedWork: "Portfolio",
     workEmpty: "Neue Arbeiten folgen bald.",
     catAll: "All",
     catSwimwear: "Swimwear",
