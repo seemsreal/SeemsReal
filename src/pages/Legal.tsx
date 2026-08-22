@@ -174,12 +174,16 @@ export function Datenschutz() {
       <p>
         <strong>Controller</strong>
         <br />
-        SEEMS REAL Studio
+        {impressum.name} / {impressum.brand}
         <br />
-        Contact details: see Imprint.
+        {impressum.street}
+        <br />
+        {impressum.city}
+        <br />
+        {impressum.country}
         <br />
         Email:{" "}
-        <a href="mailto:seemsreal.studio@gmx.at">seemsreal.studio@gmx.at</a>
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
       </p>
 
       <p>
