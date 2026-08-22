@@ -1595,11 +1595,27 @@ export function Terms() {
       <p>
         <strong>9. Usage rights in final visuals</strong>
         <br />
-        Upon full payment, you receive a non-exclusive right to use the approved
-        final visuals for your brand communication in the agreed scope. Unless
-        otherwise stated in the offer, this includes website, social media, paid
-        ads, newsletter, and print for your own brand. Any extended, exclusive,
-        resale, or white-label use requires prior written agreement.
+        Upon full payment, the Client receives a non-exclusive right to use the
+        approved final visuals for the Client’s own brand and commercial
+        communication within the agreed scope.
+        <br />
+        <br />
+        Unless otherwise stated in the individual offer, this includes use on
+        the Client’s website, e-commerce channels, social media, paid
+        advertising, newsletters, presentations and print materials.
+        <br />
+        <br />
+        The Client may crop, resize and add text, logos or other brand elements
+        to the final visuals as reasonably required for these uses.
+        <br />
+        <br />
+        The final visuals may not be resold, sublicensed, transferred to third
+        parties for their independent use, or offered as stock or white-label
+        creative work without prior written agreement with SEEMS REAL Studio.
+        <br />
+        <br />
+        Exclusive usage rights or any usage beyond the agreed scope require a
+        separate written agreement.
       </p>
 
       <p>
