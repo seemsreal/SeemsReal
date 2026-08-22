@@ -104,12 +104,19 @@
 
 @media (min-width: 901px) {
   .studio-intro h1 {
-    max-width: none;
+    max-width: min(40rem, 100%);
   }
 
   .studio-headline-a,
   .studio-headline-b {
     display: block;
+    letter-spacing: 0.14em;
+    text-align: justify;
+    text-align-last: justify;
+  }
+
+  .studio-headline-a {
+    margin-bottom: 1.35em;
   }
 
   .studio-headline-a::after {
