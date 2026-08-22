@@ -184,9 +184,9 @@ export const dictionaries: Record<Lang, Dictionary> = {
     pkg1Title: "The Edit",
     pkg1Price: "€150",
     pkg1Lead:
-      "Ein kuratierter erster Schritt, um uns kennenzulernen und zu entdecken, was wir gemeinsam schaffen können.",
+      "Ein sorgfältig kuratierter erster Schritt, um uns kennenzulernen und gemeinsam zu entdecken, was wir für deine Marke kreieren können.",
     pkg1Body:
-      "Fünf maßgeschneiderte Visuals — rund um Produkt, Ästhetik und Markenidentität.",
+      "Fünf individuelle Visuals, mit viel Feingefühl für dein Produkt, deine Ästhetik und deine Markenidentität entwickelt.",
     pkg1Includes: [
       "5 maßgeschneiderte Visuals",
       "1 Creative Direction",
