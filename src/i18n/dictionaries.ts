@@ -223,7 +223,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       "Für die Erstellung deiner Visuals benötigen wir hochwertige Still Life Aufnahmen deines Produkts, idealerweise aus verschiedenen Perspektiven.",
     processP3:
       "Je besser wir dein Produkt sehen und verstehen können, desto authentischer können wir deine Vision zum Leben erwecken.",
-    contactLabel: "Project inquiries",
+    contactLabel: "Erzähl uns von deiner Vision",
     contactNote:
       "Produkt, Deadline, Stil · wir melden uns mit einem klaren Angebot.",
     imprint: "Impressum",
