@@ -1521,11 +1521,18 @@ export function Terms() {
       <p>
         <strong>5. Final approval</strong>
         <br />
-        You must review and approve final visuals before publication or other
-        use, including product details, claims, prices, logos, trademarks, and
-        any other legally relevant content. Publication or use after delivery
-        without written objection within the agreed review window is deemed
-        approval, unless otherwise agreed.
+        The Client is responsible for carefully reviewing all final visuals
+        before publication or other use, including product representation,
+        colours, materials, logos, trademarks, text, claims, prices and other
+        brand-specific or legally relevant details.
+        <br />
+        <br />
+        Any requested corrections must be communicated before the relevant
+        visual is published or otherwise used.
+        <br />
+        <br />
+        Publication, distribution or other use of a delivered visual by the
+        Client constitutes approval of that visual.
       </p>
 
       <p>
