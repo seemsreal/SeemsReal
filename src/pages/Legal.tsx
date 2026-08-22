@@ -1808,12 +1808,24 @@ export function Terms() {
       <p>
         <strong>19. Liability</strong>
         <br />
-        We are liable without limitation for intent and gross negligence, and for
-        injury to life, body, or health. In cases of slight negligence, we are
-        liable only for breach of essential contractual duties, and liability is
-        limited to typical foreseeable damage. We are not liable for loss of
-        profit or indirect damages to the extent permitted by law. Nothing in
-        these Terms excludes liability that cannot legally be limited.
+        SEEMS REAL Studio is liable without limitation for damage caused
+        intentionally or by gross negligence, as well as for injury to life,
+        body or health.
+        <br />
+        <br />
+        In cases of slight negligence, SEEMS REAL Studio is liable only for the
+        breach of essential contractual obligations. In such cases, liability is
+        limited to damage that was reasonably foreseeable and typical for the
+        nature of the commissioned services.
+        <br />
+        <br />
+        To the extent permitted by applicable law, SEEMS REAL Studio is not
+        liable for indirect or consequential damages, including loss of profit,
+        resulting from the Client’s use of the deliverables.
+        <br />
+        <br />
+        Nothing in these Terms excludes or limits liability where such exclusion
+        or limitation is prohibited by applicable law.
       </p>
 
       <p>
