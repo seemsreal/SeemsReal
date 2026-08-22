@@ -260,7 +260,10 @@ export default function Studio() {
             <span className="studio-headline-a">{t.headlineLine1}</span>
             <span className="studio-headline-b">{t.headlineLine2}</span>
           </h1>
-          <p className="studio-lede">{t.lede}</p>
+          <p className="studio-lede">
+            <span className="studio-lede-a">{t.ledeLead}</span>
+            <span className="studio-lede-b">{t.ledeRest}</span>
+          </p>
         </section>
 
         <section id="work" className="studio-work">

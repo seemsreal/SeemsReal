@@ -16,7 +16,8 @@ export type Dictionary = {
   whatWeDo: string;
   headlineLine1: string;
   headlineLine2: string;
-  lede: string;
+  ledeLead: string;
+  ledeRest: string;
   selectedWork: string;
   workEmpty: string;
   catAll: string;
@@ -75,7 +76,10 @@ export const dictionaries: Record<Lang, Dictionary> = {
     whatWeDo: "What we do",
     headlineLine1: "Big vision.",
     headlineLine2: "Without the big production.",
-    lede: "Starting a brand, building a website or expanding your portfolio? We use AI to turn your vision into elevated imagery — without the time, cost or complexity of a traditional photoshoot. Your product. Your vision. Made to seem real.",
+    ledeLead:
+      "Starting a brand, building a website or expanding your portfolio?",
+    ledeRest:
+      "We use AI to turn your vision into elevated imagery — without the time, cost or complexity of a traditional photoshoot. Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "New work coming soon.",
     catAll: "All",
@@ -152,7 +156,10 @@ export const dictionaries: Record<Lang, Dictionary> = {
     whatWeDo: "Was wir tun",
     headlineLine1: "Big Vision.",
     headlineLine2: "Ohne die große Produktion.",
-    lede: "Brand starten, Website aufbauen oder Portfolio erweitern? Mit AI wird aus deiner Vision starke Imagery — ohne Zeit, Kosten und Komplexität eines klassischen Shootings. Dein Produkt. Deine Vision. Made to seem real.",
+    ledeLead:
+      "Brand starten, Website aufbauen oder Portfolio erweitern?",
+    ledeRest:
+      "Mit AI wird aus deiner Vision starke Imagery — ohne Zeit, Kosten und Komplexität eines klassischen Shootings. Dein Produkt. Deine Vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Neue Arbeiten folgen bald.",
     catAll: "All",
@@ -230,7 +237,10 @@ export const dictionaries: Record<Lang, Dictionary> = {
     whatWeDo: "Ce que nous faisons",
     headlineLine1: "Big vision.",
     headlineLine2: "Without the big production.",
-    lede: "Lancer une marque, créer un site ou développer votre portfolio ? Nous utilisons l’IA pour transformer votre vision en images élevées — sans le temps, le coût ni la complexité d’un shooting traditionnel. Your product. Your vision. Made to seem real.",
+    ledeLead:
+      "Lancer une marque, créer un site ou développer votre portfolio ?",
+    ledeRest:
+      "Nous utilisons l’IA pour transformer votre vision en images élevées — sans le temps, le coût ni la complexité d’un shooting traditionnel. Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nouveaux travaux bientôt.",
     catAll: "All",
@@ -308,7 +318,10 @@ export const dictionaries: Record<Lang, Dictionary> = {
     whatWeDo: "Qué hacemos",
     headlineLine1: "Big vision.",
     headlineLine2: "Without the big production.",
-    lede: "¿Empezar una marca, crear una web o ampliar tu portfolio? Usamos IA para convertir tu visión en imagery elevada — sin el tiempo, coste ni complejidad de un shooting tradicional. Your product. Your vision. Made to seem real.",
+    ledeLead:
+      "¿Empezar una marca, crear una web o ampliar tu portfolio?",
+    ledeRest:
+      "Usamos IA para convertir tu visión en imagery elevada — sin el tiempo, coste ni complejidad de un shooting tradicional. Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nuevos trabajos pronto.",
     catAll: "All",
@@ -386,7 +399,10 @@ export const dictionaries: Record<Lang, Dictionary> = {
     whatWeDo: "Cosa facciamo",
     headlineLine1: "Big vision.",
     headlineLine2: "Without the big production.",
-    lede: "Lanciare un brand, creare un sito o ampliare il portfolio? Usiamo l’AI per trasformare la tua visione in imagery elevata — senza tempo, costi e complessità di uno shooting tradizionale. Your product. Your vision. Made to seem real.",
+    ledeLead:
+      "Lanciare un brand, creare un sito o ampliare il portfolio?",
+    ledeRest:
+      "Usiamo l’AI per trasformare la tua visione in imagery elevata — senza tempo, costi e complessità di uno shooting tradizionale. Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nuovi lavori in arrivo.",
     catAll: "All",
