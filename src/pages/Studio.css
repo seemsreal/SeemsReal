@@ -468,9 +468,9 @@
   opacity: 0.9;
 }
 
-.studio-package-includes {
+.studio-offer .studio-package-includes {
   list-style: none;
-  margin: 2.4rem 0 0;
+  margin: 2.5rem 0 0;
   padding: 0;
   display: grid;
   gap: 0.55rem;
