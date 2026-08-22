@@ -305,6 +305,15 @@ export function Datenschutz() {
       </p>
 
       <p>
+        <strong>International data transfers</strong>
+        <br />
+        Some of the third-party services we use may process data outside the
+        European Economic Area (EEA). Where personal data is transferred
+        internationally, we take appropriate measures to ensure that applicable
+        data protection requirements are respected.
+      </p>
+
+      <p>
         <strong>Retention</strong>
         <br />
         We keep personal data only as long as needed for the respective purpose
