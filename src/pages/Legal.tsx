@@ -1713,7 +1713,23 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>14. Delivery</strong>
+        <strong>14. Client delays</strong>
+        <br />
+        The Client is responsible for providing all required materials,
+        information, feedback and approvals in a timely manner.
+        <br />
+        <br />
+        If materials, feedback or approvals are delayed, the estimated project
+        timeline and delivery date may be adjusted accordingly.
+        <br />
+        <br />
+        If a project is paused due to missing Client input for an extended
+        period, SEEMS REAL Studio may reschedule the continuation of the project
+        based on current availability.
+      </p>
+
+      <p>
+        <strong>15. Delivery</strong>
         <br />
         Estimated delivery timelines are stated in the offer and begin once we
         have received payment (where required) and complete briefing materials.
@@ -1722,7 +1738,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>15. AI disclosure and labeling</strong>
+        <strong>16. AI disclosure and labeling</strong>
         <br />
         The Client expressly acknowledges that the deliverables are created
         wholly or partly using generative AI. Following delivery, the Client is
@@ -1741,7 +1757,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>16. Portfolio usage</strong>
+        <strong>17. Portfolio usage</strong>
         <br />
         Unless otherwise agreed, we may show approved project visuals in our
         portfolio (including website and social channels) as selected work.
