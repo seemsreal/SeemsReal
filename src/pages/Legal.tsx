@@ -1595,9 +1595,9 @@ export function Terms() {
       <p>
         <strong>9. Usage rights in final visuals</strong>
         <br />
-        Upon full payment, the Client receives a non-exclusive right to use the
-        approved final visuals for the Client’s own brand and commercial
-        communication within the agreed scope.
+        Upon full payment, the Client receives a non-exclusive, worldwide and
+        unlimited right to use the approved final visuals for the Client’s own
+        brand and commercial communication within the agreed scope.
         <br />
         <br />
         Unless otherwise stated in the individual offer, this includes use on
