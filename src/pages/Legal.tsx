@@ -1831,9 +1831,21 @@ export function Terms() {
       <p>
         <strong>20. Client compliance</strong>
         <br />
-        You are responsible for ensuring your use of the deliverables complies
-        with advertising, platform, consumer, intellectual property, and other
-        applicable rules in the markets where the assets appear.
+        The Client is responsible for ensuring that the publication,
+        advertising, distribution and other use of the final deliverables
+        complies with the laws, regulations and platform requirements applicable
+        to the Client, its products and the markets in which the deliverables
+        are used.
+        <br />
+        <br />
+        This includes, where applicable, requirements relating to advertising,
+        product claims, consumer protection, intellectual property, AI
+        transparency and platform-specific policies.
+        <br />
+        <br />
+        SEEMS REAL Studio does not provide legal or regulatory advice regarding
+        the Client’s products, advertising claims or specific use of the
+        deliverables in individual markets.
       </p>
 
       <p>
