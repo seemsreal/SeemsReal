@@ -1483,10 +1483,16 @@ export function Terms() {
       <p>
         <strong>2. Product representation</strong>
         <br />
-        We take reasonable care to achieve a faithful representation of the
-        Client’s product and creative brief. However, due to the nature of
-        generative AI, exact reproduction of every product detail, colour,
-        texture, proportion or material characteristic cannot be guaranteed.
+        We take reasonable care to create a faithful visual representation of
+        the Client’s product and creative brief. However, due to the nature of
+        generative AI, variations in product details, colours, textures,
+        materials, proportions or other visual characteristics may occur and
+        exact reproduction cannot be guaranteed.
+        <br />
+        <br />
+        The Client acknowledges that AI-generated imagery requires careful
+        review and is responsible for confirming that the final representation
+        of the product is suitable for its intended use before publication.
       </p>
 
       <p>
