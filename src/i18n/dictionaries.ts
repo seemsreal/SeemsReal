@@ -214,15 +214,15 @@ export const dictionaries: Record<Lang, Dictionary> = {
     pkg3Body:
       "Jede Marke ist einzigartig. Deshalb entwickeln wir ein individuelles Paket, abgestimmt auf deine Produkte, deine Ästhetik, deine kreative Vision und deinen Content Bedarf.\n\nVon einzelnen Konzepten bis hin zu umfangreichen Kampagnen kreieren wir genau das, was zu deiner Marke und deinem digitalen Auftritt passt.",
     pkg3Cta: "Lass uns ein kostenloses Call machen und gemeinsam etwas schaffen →",
-    process: "Process",
+    process: "Der Ablauf",
     processKicker: "Was wir von dir brauchen",
     processTitle: "Zeig uns deine Vision.",
     processP1:
-      "Teile alles, was die Welt definiert, die du schaffen willst · Mood, Story, Licht, Farben, Referenzen, Moodboards und das Gefühl, das deine Visuals tragen sollen.",
+      "Teile mit uns alles, was die Welt deiner Marke ausmacht: deine Stimmung, deine Geschichte, Licht, Farben, Referenzen, Moodboards und vor allem das Gefühl, das deine Bilder vermitteln sollen.",
     processP2:
-      "Für deine Visuals brauchen wir hochwertige Stillleben-Aufnahmen deines Produkts — idealerweise aus mehreren Winkeln.",
+      "Für die Erstellung deiner Visuals benötigen wir hochwertige Still Life Aufnahmen deines Produkts, idealerweise aus verschiedenen Perspektiven.",
     processP3:
-      "Je besser wir dein Produkt sehen und verstehen, desto präziser bringen wir deine Vision zum Leben.",
+      "Je besser wir dein Produkt sehen und verstehen können, desto authentischer können wir deine Vision zum Leben erwecken.",
     contactLabel: "Project inquiries",
     contactNote:
       "Produkt, Deadline, Stil · wir melden uns mit einem klaren Angebot.",
