@@ -639,13 +639,17 @@
 
   .studio-footer {
     grid-template-columns: 1fr;
-    justify-items: center;
+    justify-items: end;
     gap: 0.85rem;
   }
 
-  .studio-footer > span,
+  .studio-footer > span {
+    grid-column: 1;
+    justify-self: start;
+  }
+
   .studio-footer-links {
     grid-column: 1;
-    justify-self: center;
+    justify-self: end;
   }
 }
