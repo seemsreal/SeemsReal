@@ -1470,9 +1470,14 @@ export function Terms() {
       <p>
         <strong>1. AI-generated content</strong>
         <br />
-        You expressly acknowledge that visuals created by SEEMS REAL are
-        generated wholly or partly with generative AI. Deliverables are not
-        conventional photography unless expressly agreed otherwise in writing.
+        You expressly acknowledge that visuals created by SEEMS REAL Studio are
+        created wholly or partly using generative AI and may incorporate,
+        transform or build upon materials provided by you.
+        <br />
+        <br />
+        Deliverables are AI-assisted or AI-generated visual content and do not
+        constitute conventional photography unless expressly agreed otherwise in
+        writing.
       </p>
 
       <p>
