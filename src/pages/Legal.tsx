@@ -206,9 +206,7 @@ export function Datenschutz() {
         <strong>Website use</strong>
         <br />
         When you visit the website, our hosting provider may process technically
-        necessary server-log data to deliver and secure the site. We currently
-        do not use non-essential cookies or third-party analytics. If that
-        changes, we will update this notice and obtain consent where required.
+        necessary server-log data to deliver and secure the site.
       </p>
 
       <p>
@@ -227,10 +225,20 @@ export function Datenschutz() {
       </p>
 
       <p>
-        <strong>Language preference</strong>
+        <strong>Cookies and website technologies</strong>
         <br />
-        Your selected language may be stored locally in your browser. This stays
-        on your device and is not processed by us as a user profile.
+        We currently do not use analytics, advertising trackers or non-essential
+        cookies on this website.
+        <br />
+        <br />
+        Your selected language is stored locally in your browser to remember
+        your language preference. This information remains on your device and is
+        not used for analytics, advertising, tracking or to create a user
+        profile.
+        <br />
+        <br />
+        If we introduce technologies in the future that require your consent, we
+        will update this Privacy Notice and obtain your consent where required.
       </p>
 
       <p>
