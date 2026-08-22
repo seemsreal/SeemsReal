@@ -1619,12 +1619,21 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>10. No rights in drafts and process materials</strong>
+        <strong>10. Drafts, process materials and creative know-how</strong>
         <br />
-        Unused drafts, prompts, workflows, intermediate files, and process
-        materials remain with SEEMS REAL and are not automatically transferred.
-        Only approved final deliverables listed in the offer are licensed as
-        above.
+        Only the approved final deliverables specified in the individual offer
+        are included in the Client’s usage rights.
+        <br />
+        <br />
+        Unused concepts, drafts, variations, prompts, workflows, intermediate
+        files, working files, production methods and other process materials
+        remain with SEEMS REAL Studio and are not transferred or provided to the
+        Client unless expressly agreed otherwise in writing.
+        <br />
+        <br />
+        The commissioning of final visuals does not grant the Client any right
+        to access or receive SEEMS REAL Studio’s underlying prompts, workflows,
+        tools, methods or creative processes.
       </p>
 
       <p>
