@@ -381,10 +381,24 @@ export function Datenschutz() {
       <p>
         <strong>Your rights</strong>
         <br />
-        Depending on applicable law, you may have the right to access, rectify,
-        erase, restrict, or object to processing of your personal data, and the
-        right to data portability. You may also lodge a complaint with a
-        supervisory authority.
+        Under the GDPR, you may have the right to access your personal data,
+        request correction or deletion, restrict or object to certain
+        processing, and receive your data in a portable format where applicable.
+        <br />
+        <br />
+        Where processing is based on your consent, you may withdraw your consent
+        at any time with effect for the future.
+        <br />
+        <br />
+        If you believe that the processing of your personal data infringes
+        applicable data protection law, you also have the right to lodge a
+        complaint with the Austrian Data Protection Authority (Österreichische
+        Datenschutzbehörde) or another competent supervisory authority.
+        <br />
+        <br />
+        To exercise your rights or for any questions regarding your personal
+        data, please contact us at{" "}
+        <a href="mailto:seemsreal.studio@gmx.at">seemsreal.studio@gmx.at</a>.
       </p>
 
       <p>
