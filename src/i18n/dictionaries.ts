@@ -475,7 +475,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       "Prodotto, deadline, stile · torniamo con un’offerta chiara.",
     imprint: "Note legali",
     privacy: "Privacy",
-    terms: "Terms",
+    terms: "Termini",
     aiTransparency: "AI Transparency",
     legalLabel: "Legal",
   },
