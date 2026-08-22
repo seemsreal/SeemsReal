@@ -2813,11 +2813,486 @@ function TermsNoticeIt() {
   );
 }
 
+function TermsNoticeEs() {
+  return (
+    <>
+      <p>
+        Los presentes Términos y Condiciones se aplican a todos los proyectos
+        encargados a SEEMS REAL Studio (“nosotros”). Las ofertas individuales
+        pueden contener condiciones y detalles específicos del proyecto. En caso
+        de conflicto entre estos Términos y Condiciones y una oferta individual,
+        prevalecerán las condiciones de la oferta individual para el proyecto
+        correspondiente.
+      </p>
+
+      <p>
+        Al confirmar un pedido o aceptar una oferta, el cliente (“usted”, “el
+        Cliente”) acepta estos Términos y Condiciones.
+      </p>
+
+      <p>
+        Nuestros servicios se ofrecen exclusivamente a empresas y clientes
+        profesionales que actúan en el marco de su actividad comercial o
+        profesional.
+      </p>
+
+      <p className="legal-callout">
+        El Cliente es responsable de revisar y aprobar todos los contenidos
+        visuales finales antes de su publicación, incluida la exactitud de los
+        productos, colores, materiales, logotipos, textos y demás detalles
+        específicos de la marca.
+      </p>
+
+      <p>
+        <strong>1. Contenido generado mediante IA</strong>
+        <br />
+        El Cliente reconoce expresamente que los contenidos visuales creados por
+        SEEMS REAL Studio se realizan total o parcialmente mediante inteligencia
+        artificial generativa y pueden incorporar, transformar o basarse en
+        materiales proporcionados por el Cliente.
+        <br />
+        <br />
+        Los contenidos entregados son contenidos visuales asistidos o generados
+        mediante IA y no constituyen fotografía convencional, salvo que se
+        acuerde expresamente lo contrario por escrito.
+      </p>
+
+      <p>
+        <strong>2. Representación del producto</strong>
+        <br />
+        Tomamos las precauciones razonables para crear una representación visual
+        fiel del producto y del briefing creativo del Cliente. Sin embargo,
+        debido a la naturaleza de la inteligencia artificial generativa, pueden
+        producirse variaciones en los detalles del producto, colores, texturas,
+        materiales, proporciones u otras características visuales, por lo que no
+        puede garantizarse una reproducción exacta.
+        <br />
+        <br />
+        El Cliente reconoce que las imágenes generadas mediante IA requieren una
+        revisión cuidadosa y es responsable de confirmar, antes de su
+        publicación, que la representación final del producto sea adecuada para
+        el uso previsto.
+      </p>
+
+      <p>
+        <strong>3. Naturaleza de los resultados generados mediante IA</strong>
+        <br />
+        Debido a la naturaleza de la inteligencia artificial generativa, los
+        resultados pueden contener ocasionalmente elementos inesperados,
+        imprecisiones, artefactos o similitudes involuntarias con contenidos
+        existentes.
+        <br />
+        <br />
+        Tomamos las precauciones razonables al seleccionar y perfeccionar los
+        contenidos visuales finales. Sin embargo, no podemos garantizar que los
+        elementos generados mediante IA sean completamente únicos o estén libres
+        de similitudes involuntarias con contenidos de terceros.
+      </p>
+
+      <p>
+        <strong>4. Ausencia de garantía de resultados</strong>
+        <br />
+        No garantizamos resultados comerciales, publicitarios, de interacción,
+        conversión, alcance o ventas específicos derivados del uso de los
+        contenidos entregados.
+        <br />
+        <br />
+        Los resultados pueden depender de numerosos factores fuera de nuestro
+        control, incluidos el producto del Cliente, los precios, el público
+        objetivo, la plataforma, la estrategia publicitaria y las condiciones
+        del mercado.
+      </p>
+
+      <p>
+        <strong>5. Aprobación final</strong>
+        <br />
+        El Cliente es responsable de revisar cuidadosamente todos los contenidos
+        visuales finales antes de su publicación o cualquier otro uso, incluida
+        la representación del producto, los colores, materiales, logotipos,
+        marcas, textos, declaraciones publicitarias, precios y otros detalles
+        específicos de la marca o jurídicamente relevantes.
+        <br />
+        <br />
+        Cualquier corrección solicitada deberá comunicarse antes de que el
+        contenido visual correspondiente sea publicado o utilizado de cualquier
+        otra forma.
+        <br />
+        <br />
+        La publicación, distribución o cualquier otro uso de un contenido visual
+        entregado por parte del Cliente constituirá la aprobación de dicho
+        contenido.
+      </p>
+
+      <p>
+        <strong>6. Derechos sobre los materiales proporcionados por el Cliente</strong>
+        <br />
+        El Cliente confirma que posee o dispone de todos los derechos, permisos
+        y autorizaciones necesarios para proporcionar los materiales presentados
+        para el proyecto, incluidas imágenes de productos, fotografías,
+        logotipos, diseños, marcas, moodboards, imágenes de referencia y otros
+        contenidos.
+        <br />
+        <br />
+        El Cliente concede a SEEMS REAL Studio los derechos necesarios para
+        utilizar, reproducir, adaptar y tratar dichos materiales exclusivamente
+        con el fin de prestar los servicios contratados, incluido, cuando sea
+        necesario para el proyecto, su tratamiento mediante software y
+        herramientas de inteligencia artificial generativa de terceros.
+        <br />
+        <br />
+        El Cliente es responsable de garantizar que los materiales
+        proporcionados y su uso autorizado para el proyecto no infrinjan derechos
+        de autor, marcas, derechos de la personalidad, derechos de privacidad u
+        otros derechos de terceros.
+      </p>
+
+      <p>
+        <strong>7. Referencias de terceros</strong>
+        <br />
+        Los moodboards, imágenes de referencia y otros materiales creativos de
+        terceros proporcionados por el Cliente se utilizan exclusivamente como
+        orientación creativa, por ejemplo, para definir el ambiente, la
+        estética, la composición, la iluminación o la dirección visual general
+        deseada.
+        <br />
+        <br />
+        Las referencias no están destinadas a ser reproducidas de forma idéntica
+        y SEEMS REAL Studio no garantiza ni se compromete a realizar una
+        reproducción exacta de imágenes, obras, campañas, diseños o identidades
+        de marca de terceros.
+      </p>
+
+      <p>
+        <strong>8. Herramientas de IA y confidencialidad</strong>
+        <br />
+        Para prestar los servicios contratados, SEEMS REAL Studio puede utilizar
+        software y herramientas de inteligencia artificial generativa de
+        terceros. Los materiales del Cliente, incluidas imágenes de productos,
+        materiales de briefing y otros recursos del proyecto, podrán ser
+        tratados mediante dichos servicios cuando sea necesario para crear los
+        contenidos acordados y de conformidad con nuestra Política de
+        Privacidad.
+        <br />
+        <br />
+        Tratamos con el debido cuidado los materiales no públicos del Cliente y
+        la información confidencial del proyecto y los utilizamos
+        exclusivamente con el fin de prestar los servicios contratados. No
+        utilizamos materiales confidenciales del Cliente para proyectos no
+        relacionados ni los divulgamos a terceros, salvo cuando sea necesario
+        para prestar los servicios o cuando así lo exija la ley.
+        <br />
+        <br />
+        El Cliente reconoce que el uso de herramientas de terceros puede
+        implicar el tratamiento de datos por parte de los respectivos
+        proveedores de acuerdo con sus condiciones y prácticas aplicables en
+        materia de tratamiento de datos.
+      </p>
+
+      <p>
+        <strong>9. Derechos de uso sobre los contenidos visuales finales</strong>
+        <br />
+        Una vez efectuado el pago íntegro, el Cliente recibe un derecho no
+        exclusivo, mundial y sin límite temporal para utilizar los contenidos
+        visuales finales aprobados para su propia marca y comunicación comercial
+        dentro del ámbito acordado.
+        <br />
+        <br />
+        Salvo que se indique lo contrario en la oferta individual, esto incluye
+        su uso en el sitio web del Cliente, canales de comercio electrónico,
+        redes sociales, publicidad de pago, newsletters, presentaciones y
+        materiales impresos.
+        <br />
+        <br />
+        El Cliente podrá recortar y redimensionar los contenidos visuales
+        finales y añadir textos, logotipos u otros elementos de marca en la
+        medida razonablemente necesaria para dichos usos.
+        <br />
+        <br />
+        Los contenidos visuales finales no podrán revenderse, sublicenciarse,
+        transferirse a terceros para su uso independiente ni ofrecerse como
+        contenido de stock o trabajo creativo white-label sin el consentimiento
+        previo por escrito de SEEMS REAL Studio.
+        <br />
+        <br />
+        Los derechos de uso exclusivos o cualquier utilización que exceda el
+        ámbito acordado requerirán un acuerdo escrito separado.
+      </p>
+
+      <p>
+        <strong>10. Borradores, materiales de proceso y know-how creativo</strong>
+        <br />
+        Únicamente los contenidos finales aprobados y especificados en la oferta
+        individual están incluidos en los derechos de uso concedidos al Cliente.
+        <br />
+        <br />
+        Los conceptos no utilizados, borradores, variantes, prompts, workflows,
+        archivos intermedios, archivos de trabajo, métodos de producción y demás
+        materiales de proceso permanecen en SEEMS REAL Studio y no se
+        transfieren ni se proporcionan al Cliente, salvo que se acuerde
+        expresamente lo contrario por escrito.
+        <br />
+        <br />
+        El encargo de contenidos visuales finales no concede al Cliente ningún
+        derecho de acceso o recepción de los prompts, workflows, herramientas,
+        métodos o procesos creativos subyacentes de SEEMS REAL Studio.
+      </p>
+
+      <p>
+        <strong>11. Revisiones</strong>
+        <br />
+        El Paquete 01 (The Edit) incluye una ronda de revisión. El Paquete 02
+        (The Campaign) incluye dos rondas de revisión. Los proyectos Bespoke
+        incluyen el número de rondas de revisión indicado en la oferta
+        individual.
+        <br />
+        <br />
+        Una ronda de revisión comprende ajustes razonables dentro de la
+        dirección visual acordada, como pequeños cambios en la composición, el
+        estilismo, los detalles o el aspecto general.
+        <br />
+        <br />
+        Las solicitudes de un concepto, escenario o dirección creativa
+        sustancialmente nuevos, así como otros cambios fuera del briefing
+        originalmente acordado, no se consideran una revisión y podrán
+        presupuestarse por separado.
+        <br />
+        <br />
+        Las rondas de revisión adicionales o los cambios que excedan el alcance
+        acordado podrán cobrarse por separado. Cualquier coste adicional será
+        comunicado antes de comenzar el trabajo adicional.
+      </p>
+
+      <p>
+        <strong>12. Pago</strong>
+        <br />
+        Salvo que se acuerde lo contrario en la oferta individual, el Paquete 01
+        (The Edit) deberá abonarse íntegramente antes de comenzar el trabajo.
+        <br />
+        <br />
+        El Paquete 02 (The Campaign) y los proyectos Bespoke podrán requerir un
+        depósito según lo especificado en la oferta individual, debiendo
+        abonarse el importe restante antes de la entrega final.
+        <br />
+        <br />
+        Los pagos deberán realizarse utilizando el método y los datos de pago
+        indicados en la factura o en la oferta individual.
+        <br />
+        <br />
+        El trabajo comenzará una vez recibidos el pago requerido y todos los
+        materiales necesarios para el briefing, salvo que se acuerde lo
+        contrario.
+        <br />
+        <br />
+        SEEMS REAL Studio podrá suspender el trabajo o retener los contenidos
+        finales mientras permanezca pendiente un pago acordado. Cualquier retraso
+        resultante podrá ampliar el plazo de entrega originalmente estimado.
+        <br />
+        <br />
+        Los derechos de uso sobre los contenidos visuales finales se concederán
+        únicamente una vez efectuado el pago íntegro del proyecto
+        correspondiente.
+      </p>
+
+      <p>
+        <strong>13. Cancelación</strong>
+        <br />
+        El Cliente podrá cancelar un proyecto mediante notificación por escrito
+        a SEEMS REAL Studio.
+        <br />
+        <br />
+        Si un proyecto se cancela antes de que haya comenzado la producción,
+        cualquier importe ya abonado se gestionará de acuerdo con lo establecido
+        en la oferta individual.
+        <br />
+        <br />
+        Una vez iniciada la producción, el trabajo ya realizado y los costes
+        incurridos hasta la fecha de cancelación seguirán siendo exigibles.
+        Cualquier depósito ya abonado podrá retenerse para cubrir el trabajo
+        realizado y los costes incurridos.
+        <br />
+        <br />
+        Si el valor del trabajo ya realizado supera el depósito o el importe ya
+        abonado, SEEMS REAL Studio podrá facturar al Cliente el importe
+        pendiente.
+        <br />
+        <br />
+        Cualquier derecho imperativo que no pueda excluirse legalmente
+        permanecerá inalterado.
+      </p>
+
+      <p>
+        <strong>14. Retrasos por parte del Cliente</strong>
+        <br />
+        El Cliente es responsable de proporcionar oportunamente todos los
+        materiales, información, feedback y aprobaciones necesarios.
+        <br />
+        <br />
+        Si se retrasan los materiales, el feedback o las aprobaciones, el
+        calendario estimado del proyecto y la fecha de entrega podrán ajustarse
+        en consecuencia.
+        <br />
+        <br />
+        Si un proyecto queda suspendido durante un período prolongado debido a
+        la falta de colaboración del Cliente, SEEMS REAL Studio podrá
+        reprogramar la continuación del proyecto en función de la disponibilidad
+        existente en ese momento.
+      </p>
+
+      <p>
+        <strong>15. Entrega</strong>
+        <br />
+        Los plazos de entrega estimados se indican en la oferta individual y
+        comienzan una vez recibidos el pago requerido y todos los materiales
+        necesarios para el briefing, salvo que se acuerde lo contrario.
+        <br />
+        <br />
+        Los contenidos finales se entregarán digitalmente en los formatos y
+        dentro del alcance especificados en la oferta individual.
+        <br />
+        <br />
+        Las fechas y los plazos de entrega son estimaciones, salvo que se hayan
+        acordado expresamente por escrito como vinculantes.
+        <br />
+        <br />
+        Los retrasos causados por la entrega tardía de materiales, feedback o
+        aprobaciones por parte del Cliente podrán ampliar el plazo de entrega en
+        consecuencia.
+      </p>
+
+      <p>
+        <strong>16. Divulgación y etiquetado de contenidos de IA</strong>
+        <br />
+        El Cliente reconoce expresamente que los contenidos entregados se crean
+        total o parcialmente mediante inteligencia artificial generativa.
+        <br />
+        <br />
+        Tras la entrega, el Cliente es responsable de determinar y cumplir
+        cualquier requisito de divulgación, etiquetado o transparencia aplicable
+        a la publicación, publicidad u otro uso de los contenidos, incluidos los
+        requisitos derivados de la legislación aplicable, el Reglamento de
+        Inteligencia Artificial de la UE (EU AI Act) y las políticas pertinentes
+        de las plataformas.
+        <br />
+        <br />
+        SEEMS REAL Studio es responsable de la creación y entrega de los
+        contenidos visuales acordados, pero no asume responsabilidad por su
+        posterior publicación, distribución o utilización por parte del Cliente
+        ni por las obligaciones de cumplimiento derivadas de dicho uso.
+      </p>
+
+      <p>
+        <strong>17. Uso en el portfolio</strong>
+        <br />
+        Salvo que se acuerde lo contrario por escrito, SEEMS REAL Studio podrá
+        utilizar los contenidos visuales finales aprobados y creados para el
+        Cliente en su propio portfolio, sitio web, redes sociales y para fines
+        de autopromoción.
+        <br />
+        <br />
+        Cuando el proyecto se refiera a un producto, colección o campaña aún no
+        publicados, SEEMS REAL Studio no compartirá públicamente los contenidos
+        visuales correspondientes antes de que el Cliente haya publicado el
+        respectivo producto, colección o campaña, salvo autorización previa del
+        Cliente.
+        <br />
+        <br />
+        La información comercial confidencial, los materiales internos y los
+        detalles no públicos del proyecto no serán divulgados como parte de
+        dicho uso en el portfolio.
+      </p>
+
+      <p>
+        <strong>18. Disponibilidad de terceros y fuerza mayor</strong>
+        <br />
+        SEEMS REAL Studio puede depender de software, herramientas de
+        inteligencia artificial generativa y otros proveedores de servicios
+        externos para prestar los servicios contratados.
+        <br />
+        <br />
+        No somos responsables de retrasos o de la imposibilidad temporal de
+        prestar los servicios causados por circunstancias fuera de nuestro
+        control razonable, incluidos fallos importantes o indisponibilidad de
+        servicios de terceros, fallos de infraestructura técnica u otros
+        acontecimientos que razonablemente no hubieran podido evitarse.
+        <br />
+        <br />
+        En estos casos, realizaremos esfuerzos razonables para reanudar el
+        proyecto lo antes posible e informaremos al Cliente si el plazo estimado
+        de entrega se ve afectado de manera significativa.
+      </p>
+
+      <p>
+        <strong>19. Responsabilidad</strong>
+        <br />
+        SEEMS REAL Studio responde sin limitación por los daños causados
+        intencionadamente o por negligencia grave, así como por daños a la vida,
+        la integridad física o la salud.
+        <br />
+        <br />
+        En casos de negligencia leve, SEEMS REAL Studio responderá únicamente
+        por el incumplimiento de obligaciones contractuales esenciales. En estos
+        casos, la responsabilidad se limitará a los daños razonablemente
+        previsibles y típicos de la naturaleza de los servicios contratados.
+        <br />
+        <br />
+        En la medida permitida por la legislación aplicable, SEEMS REAL Studio
+        no será responsable de daños indirectos o consecuenciales, incluida la
+        pérdida de beneficios, derivados del uso de los contenidos entregados
+        por parte del Cliente.
+        <br />
+        <br />
+        Nada de lo dispuesto en estos Términos excluye o limita la
+        responsabilidad cuando dicha exclusión o limitación esté prohibida por
+        la legislación aplicable.
+      </p>
+
+      <p>
+        <strong>20. Cumplimiento normativo por parte del Cliente</strong>
+        <br />
+        El Cliente es responsable de garantizar que la publicación, publicidad,
+        distribución y cualquier otro uso de los contenidos finales cumplan con
+        las leyes, normativas y requisitos de las plataformas aplicables al
+        Cliente, a sus productos y a los mercados en los que se utilicen dichos
+        contenidos.
+        <br />
+        <br />
+        Esto incluye, cuando corresponda, los requisitos relativos a publicidad,
+        declaraciones sobre productos, protección de los consumidores, propiedad
+        intelectual, transparencia de la IA y políticas específicas de las
+        plataformas.
+        <br />
+        <br />
+        SEEMS REAL Studio no proporciona asesoramiento jurídico o regulatorio en
+        relación con los productos del Cliente, sus declaraciones publicitarias
+        o el uso específico de los contenidos entregados en mercados concretos.
+      </p>
+
+      <p>
+        <strong>21. Legislación aplicable y jurisdicción</strong>
+        <br />
+        Los presentes Términos y Condiciones y la relación contractual entre el
+        Cliente y SEEMS REAL Studio se regirán por la legislación austriaca, con
+        exclusión de sus normas sobre conflicto de leyes.
+        <br />
+        <br />
+        Para cualquier controversia derivada de o relacionada con la relación
+        contractual, serán competentes los tribunales de Austria en la medida en
+        que dicha jurisdicción pueda acordarse válidamente conforme a la
+        legislación aplicable.
+        <br />
+        <br />
+        Las disposiciones imperativas de la legislación aplicable permanecerán
+        inalteradas.
+      </p>
+    </>
+  );
+}
+
 const termsTitles = {
   en: "Terms & Conditions",
   de: "Allgemeine Geschäftsbedingungen",
   it: "Termini e Condizioni",
-  es: "Terms & Conditions",
+  es: "Términos y Condiciones",
   fr: "Terms & Conditions",
 } as const;
 
@@ -2837,6 +3312,8 @@ export function Terms() {
       <TermsNoticeDe />
     ) : lang === "it" ? (
       <TermsNoticeIt />
+    ) : lang === "es" ? (
+      <TermsNoticeEs />
     ) : (
       <TermsNoticeEn />
     );
