@@ -80,7 +80,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ledeLead:
       "Starting a brand, building a website or expanding your portfolio?",
     ledeRest:
-      "We use AI to turn your vision into elevated imagery — without the time, cost or complexity of a traditional photoshoot.",
+      "We use AI to turn your vision into elevated imagery, without the time, cost or complexity of a traditional photoshoot.",
     ledeClose: "Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "New work coming soon.",
