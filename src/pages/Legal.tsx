@@ -211,6 +211,15 @@ export function Datenschutz() {
       </p>
 
       <p>
+        <strong>Email communication</strong>
+        <br />
+        We use GMX for email communication. When you contact us by email, the
+        information you provide, including your email address and message
+        content, is processed through our email service provider for the purpose
+        of handling your inquiry and communicating with you.
+      </p>
+
+      <p>
         <strong>Project communication and files</strong>
         <br />
         If you contact us or commission work, we process the information needed
