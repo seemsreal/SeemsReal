@@ -28,6 +28,14 @@ const categoryIds: { id: CategoryId; labelKey: keyof Dictionary }[] = [
 
 const work: WorkItem[] = [
   {
+    id: "fashion-13",
+    category: "fashion",
+    image: "/work/fashion-13.jpg",
+    aiModel: true,
+    titleKey: "catFashion",
+    metaKey: "metaEditorial",
+  },
+  {
     id: "fashion-1",
     category: "fashion",
     image: "/work/fashion-01.png",
@@ -259,7 +267,7 @@ export default function Studio() {
 
   const visible =
     category === "all"
-      ? (["swimwear", "beauty", "jewelry"] as const)
+      ? (["fashion", "swimwear", "beauty", "jewelry"] as const)
           .map((cat) => work.find((item) => item.category === cat))
           .filter((item): item is WorkItem => Boolean(item))
       : work.filter((item) => item.category === category);
