@@ -1573,13 +1573,23 @@ export function Terms() {
       <p>
         <strong>8. AI tools and confidentiality</strong>
         <br />
-        To perform the services, we may use third-party software and generative
-        AI tools. Materials you provide (including unpublished product imagery)
-        may be processed in those tools solely as needed to create the
-        deliverables, in line with our Privacy notice. We treat client materials
-        as confidential and do not use them for unrelated purposes. Please do not
-        share materials you are not permitted to provide for AI-assisted
-        production.
+        To perform the commissioned services, SEEMS REAL Studio may use
+        third-party software and generative AI tools. Client materials,
+        including product images, briefing materials and other project assets,
+        may be processed through these services where necessary to create the
+        agreed deliverables and in accordance with our Privacy Notice.
+        <br />
+        <br />
+        We treat non-public Client materials and confidential project
+        information with reasonable care and use them solely for the purpose of
+        performing the commissioned services. We do not use confidential Client
+        materials for unrelated projects or disclose them to third parties
+        except where necessary to provide the services or where required by law.
+        <br />
+        <br />
+        The Client acknowledges that the use of third-party tools may involve
+        processing by the respective service providers in accordance with their
+        applicable data-processing terms and practices.
       </p>
 
       <p>
