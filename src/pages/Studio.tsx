@@ -143,7 +143,7 @@ const work: WorkItem[] = [
     image: "/work/verdelie-jar.png",
     aiModel: true,
     titleKey: "catBeauty",
-    metaKey: "metaStillLife",
+    metaKey: "metaProduct",
   },
   {
     id: "beauty-2",
@@ -167,7 +167,7 @@ const work: WorkItem[] = [
     image: "/work/beauty-04.png",
     aiModel: true,
     titleKey: "catBeauty",
-    metaKey: "metaStillLife",
+    metaKey: "metaProduct",
   },
   {
     id: "beauty-5",
@@ -215,7 +215,7 @@ const work: WorkItem[] = [
     image: "/work/jewelry-04.png",
     aiModel: true,
     titleKey: "catJewelry",
-    metaKey: "metaStillLife",
+    metaKey: "metaProduct",
   },
 ];
 
