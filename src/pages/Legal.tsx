@@ -168,9 +168,9 @@ export function Impressum() {
   );
 }
 
-export function Datenschutz() {
+function PrivacyNoticeEn() {
   return (
-    <LegalPage title="Privacy">
+    <>
       <p>
         We take the protection of personal data seriously. This Privacy Notice
         explains what personal data we process when you use this website,
@@ -394,6 +394,266 @@ export function Datenschutz() {
         data, please contact us at{" "}
         <a href={`mailto:${impressum.email}`}>{impressum.email}</a>.
       </p>
+    </>
+  );
+}
+
+function PrivacyNoticeDe() {
+  return (
+    <>
+      <p>
+        Der Schutz personenbezogener Daten ist uns wichtig. Diese
+        Datenschutzerklärung erläutert, welche personenbezogenen Daten wir
+        verarbeiten, wenn Sie diese Website nutzen, mit uns Kontakt aufnehmen
+        oder mit SEEMS REAL Studio zusammenarbeiten.
+      </p>
+
+      <p>
+        <strong>Verantwortliche</strong>
+        <br />
+        {impressum.name} / {impressum.brand}
+        <br />
+        {impressum.street}
+        <br />
+        {impressum.city}
+        <br />
+        Österreich
+        <br />
+        E-Mail:{" "}
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
+      </p>
+
+      <p>
+        <strong>Kategorien personenbezogener Daten</strong>
+        <br />
+        Je nachdem, wie Sie mit uns interagieren, können wir Ihren Namen,
+        Firmennamen, Ihre E-Mail-Adresse, Telefonnummer, Rechnungsdaten,
+        Nachrichteninhalte, Briefing-Unterlagen, Produktbilder und andere von
+        Ihnen bereitgestellte Dateien sowie technische Website-Daten wie
+        IP-Adresse und Browserinformationen verarbeiten.
+      </p>
+
+      <p>
+        <strong>Website-Hosting</strong>
+        <br />
+        Diese Website wird von Vercel Inc. gehostet. Beim Besuch unserer Website
+        kann Vercel technisch notwendige Daten wie Ihre IP-Adresse,
+        Browserinformationen und Server-Log-Daten verarbeiten, um die Website
+        bereitzustellen, zu betreiben und abzusichern.
+        <br />
+        <br />
+        Vercel hat seinen Sitz in den Vereinigten Staaten und Daten können
+        außerhalb des Europäischen Wirtschaftsraums verarbeitet werden. Soweit
+        erforderlich, werden internationale Datenübermittlungen durch geeignete
+        Schutzmaßnahmen abgesichert, einschließlich der
+        Standardvertragsklauseln der Europäischen Kommission.
+      </p>
+
+      <p>
+        <strong>Cookies und Website-Technologien</strong>
+        <br />
+        Wir verwenden derzeit keine Analyse-Tools, Werbe-Tracker oder nicht
+        notwendigen Cookies auf dieser Website.
+        <br />
+        <br />
+        Ihre ausgewählte Sprache wird lokal in Ihrem Browser gespeichert, damit
+        Ihre Spracheinstellung erhalten bleibt. Diese Information verbleibt auf
+        Ihrem Gerät und wird weder für Analysen noch für Werbung, Tracking oder
+        die Erstellung eines Nutzerprofils verwendet.
+        <br />
+        <br />
+        Sollten wir zukünftig Technologien einsetzen, die Ihre Einwilligung
+        erfordern, werden wir diese Datenschutzerklärung entsprechend
+        aktualisieren und Ihre Einwilligung einholen, soweit dies erforderlich
+        ist.
+      </p>
+
+      <p>
+        <strong>E-Mail-Kommunikation</strong>
+        <br />
+        Für unsere E-Mail-Kommunikation nutzen wir GMX, einen Dienst der 1&amp;1
+        Mail &amp; Media GmbH. Wenn Sie uns per E-Mail kontaktieren, werden die
+        von Ihnen übermittelten Informationen, einschließlich Ihrer
+        E-Mail-Adresse und des Nachrichteninhalts, über diesen Dienst
+        verarbeitet, um Ihre Anfrage zu bearbeiten und mit Ihnen zu
+        kommunizieren. GMX speichert E-Mail-Daten in Rechenzentren in
+        Deutschland.
+      </p>
+
+      <p>
+        <strong>Projektkommunikation und KI-Verarbeitung</strong>
+        <br />
+        Wenn Sie uns kontaktieren oder mit einem Projekt beauftragen,
+        verarbeiten wir die Informationen, die erforderlich sind, um Ihre
+        Anfrage zu bearbeiten, ein Angebot zu erstellen, mit Ihnen zu
+        kommunizieren, die beauftragten Visuals zu erstellen und zu liefern
+        sowie Rechnungen auszustellen.
+        <br />
+        <br />
+        Dies kann Produktbilder, Referenzbilder, Logos, Moodboards und andere
+        von Ihnen bereitgestellte Briefing-Unterlagen umfassen.
+        <br />
+        <br />
+        Vom Kunden bereitgestellte Materialien werden ausschließlich zum Zweck
+        der Erstellung und Lieferung der beauftragten Leistungen verwendet.
+        Soweit dies für die Erstellung KI-gestützter Visuals erforderlich ist,
+        können ausgewählte Projektmaterialien in generative KI-Dienste von
+        Drittanbietern hochgeladen und dort verarbeitet werden.
+        <br />
+        <br />
+        Bitte stellen Sie uns keine Materialien zur Verfügung, zu deren
+        Weitergabe oder Verarbeitung für diesen Zweck Sie nicht berechtigt sind.
+        Sollten Materialien identifizierbare Personen enthalten, informieren Sie
+        uns bitte im Voraus, damit wir prüfen können, ob und in welcher Form
+        diese verarbeitet werden können.
+      </p>
+
+      <div className="legal-block">
+        <p>
+          <strong>Rechtsgrundlagen</strong>
+          <br />
+          Soweit die DSGVO Anwendung findet, verarbeiten wir personenbezogene
+          Daten auf Grundlage der folgenden Rechtsgrundlagen:
+        </p>
+
+        <div className="legal-block-items">
+          <p>
+            <span className="legal-subhead">
+              Vertrag und vorvertragliche Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO)
+            </span>
+            Zur Bearbeitung von Projektanfragen, Erstellung von Angeboten,
+            Kommunikation über potenzielle oder laufende Projekte und Erbringung
+            unserer Leistungen.
+          </p>
+
+          <p>
+            <span className="legal-subhead">
+              Berechtigte Interessen (Art. 6 Abs. 1 lit. f DSGVO)
+            </span>
+            Zum Betrieb und zur Absicherung unserer Website, zur Führung
+            notwendiger technischer Protokolle sowie zur effizienten
+            Kommunikation mit Kunden und potenziellen Kunden.
+          </p>
+
+          <p>
+            <span className="legal-subhead">
+              Rechtliche Verpflichtungen (Art. 6 Abs. 1 lit. c DSGVO)
+            </span>
+            Soweit die Verarbeitung erforderlich ist, um für unser Unternehmen
+            geltende gesetzliche Verpflichtungen zu erfüllen, insbesondere im
+            Bereich Buchhaltung, Steuern und gesetzliche Aufbewahrungspflichten.
+          </p>
+
+          <p>
+            <span className="legal-subhead">
+              Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)
+            </span>
+            Soweit eine Verarbeitung auf Ihrer Einwilligung beruht, können Sie
+            diese jederzeit mit Wirkung für die Zukunft widerrufen. Die
+            Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt
+            davon unberührt.
+          </p>
+        </div>
+      </div>
+
+      <p>
+        <strong>Weitergabe von Daten</strong>
+        <br />
+        Wir verkaufen keine personenbezogenen Daten.
+        <br />
+        <br />
+        Personenbezogene Daten können durch Dienstleister verarbeitet werden,
+        die für den Betrieb unserer Website, die Kommunikation mit Kunden, die
+        Erfüllung rechtlicher und administrativer Verpflichtungen sowie die
+        Durchführung beauftragter Projekte erforderlich sind. Dazu können
+        insbesondere Hosting-, E-Mail-, Rechnungs- und generative
+        KI-Dienstleister gehören.
+        <br />
+        <br />
+        Wir geben personenbezogene Daten nur weiter, soweit dies für den
+        jeweiligen Zweck erforderlich ist und unter Einhaltung angemessener
+        Datenschutzvorkehrungen, soweit diese erforderlich sind.
+      </p>
+
+      <p>
+        <strong>Internationale Datenübermittlungen</strong>
+        <br />
+        Einige der von uns eingesetzten Drittanbieter können personenbezogene
+        Daten außerhalb des Europäischen Wirtschaftsraums (EWR) verarbeiten.
+        <br />
+        <br />
+        Werden personenbezogene Daten international übermittelt, treffen wir
+        geeignete Maßnahmen, um sicherzustellen, dass die geltenden
+        Datenschutzanforderungen eingehalten und, soweit erforderlich,
+        angemessene Schutzmaßnahmen eingesetzt werden.
+      </p>
+
+      <p>
+        <strong>Speicherdauer</strong>
+        <br />
+        Wir speichern personenbezogene Daten nur so lange, wie dies für den
+        Zweck erforderlich ist, für den sie erhoben wurden, oder solange dies
+        nach geltendem Recht erforderlich ist.
+        <br />
+        <br />
+        Projektmaterialien, einschließlich Produktbildern, Referenzbildern,
+        Logos und Briefing-Unterlagen, werden nach Abschluss des beauftragten
+        Projekts grundsätzlich aus unseren eigenen Speichern und, soweit uns
+        dies möglich ist, aus den für das Projekt verwendeten KI-Diensten von
+        Drittanbietern gelöscht.
+        <br />
+        <br />
+        Sofern mit dem Kunden vereinbart, können Projektmaterialien stattdessen
+        für zukünftige Projekte und eine weitere Zusammenarbeit bei uns und
+        innerhalb der relevanten KI-Dienste gespeichert werden. Der Kunde kann
+        jederzeit die Löschung der weiterhin gespeicherten Projektmaterialien
+        verlangen, vorbehaltlich etwaiger gesetzlicher Aufbewahrungspflichten.
+        <br />
+        <br />
+        Für Drittanbieter können eigene technische Speicherfristen,
+        Backup-Verfahren und Datenverarbeitungspraktiken gelten, die auch nach
+        einer Löschung aus unserem aktiven Benutzerkonto weiterhin Anwendung
+        finden können.
+        <br />
+        <br />
+        Geschäfts-, Buchhaltungs- und Rechnungsunterlagen werden für die nach
+        österreichischem Recht vorgeschriebenen Zeiträume aufbewahrt.
+      </p>
+
+      <p>
+        <strong>Ihre Rechte</strong>
+        <br />
+        Unter den Voraussetzungen der DSGVO haben Sie insbesondere das Recht auf
+        Auskunft über Ihre personenbezogenen Daten, Berichtigung oder Löschung
+        Ihrer Daten, Einschränkung der Verarbeitung, Widerspruch gegen bestimmte
+        Verarbeitungen sowie, soweit anwendbar, auf Datenübertragbarkeit.
+        <br />
+        <br />
+        Soweit die Verarbeitung auf Ihrer Einwilligung beruht, können Sie diese
+        jederzeit mit Wirkung für die Zukunft widerrufen.
+        <br />
+        <br />
+        Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen
+        Daten gegen geltendes Datenschutzrecht verstößt, haben Sie das Recht,
+        Beschwerde bei der Österreichischen Datenschutzbehörde oder einer
+        anderen zuständigen Aufsichtsbehörde einzulegen.
+        <br />
+        <br />
+        Zur Ausübung Ihrer Rechte oder bei Fragen zur Verarbeitung Ihrer
+        personenbezogenen Daten kontaktieren Sie uns unter{" "}
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>.
+      </p>
+    </>
+  );
+}
+
+export function Datenschutz() {
+  const { lang } = useLanguage();
+  const isDe = lang === "de";
+
+  return (
+    <LegalPage title={isDe ? "Datenschutzerklärung" : "Privacy"}>
+      {isDe ? <PrivacyNoticeDe /> : <PrivacyNoticeEn />}
     </LegalPage>
   );
 }
