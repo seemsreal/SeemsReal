@@ -6,6 +6,10 @@
 }
 
 .legal-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.75rem;
   padding: 1.35rem clamp(1.25rem, 4vw, 3rem);
   border-bottom: 1px solid var(--line);
 }
@@ -29,16 +33,8 @@
   padding: clamp(3rem, 8vw, 5rem) clamp(1.25rem, 4vw, 3rem);
 }
 
-.legal-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-
 .legal-label {
-  margin: 0;
+  margin: 0 0 1rem;
   font-size: 0.68rem;
   font-weight: 500;
   letter-spacing: 0.22em;

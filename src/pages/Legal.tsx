@@ -22,13 +22,11 @@ function LegalPage({ title, children }: LegalPageProps) {
         >
           SEEMS REAL
         </button>
+        <LanguageSwitch tone="dark" />
       </header>
 
       <main className="legal-main">
-        <div className="legal-top">
-          <p className="legal-label">{t.legalLabel}</p>
-          <LanguageSwitch tone="dark" />
-        </div>
+        <p className="legal-label">{t.legalLabel}</p>
         <h1>{title}</h1>
         <div className="legal-body">{children}</div>
       </main>
