@@ -7,6 +7,7 @@ import {
   Impressum,
   Terms,
 } from "./pages/Legal";
+import { isPrivacyPath } from "./i18n/privacyRoutes";
 
 function subscribe(onStoreChange: () => void) {
   window.addEventListener("popstate", onStoreChange);
@@ -28,7 +29,7 @@ export default function App() {
     return <Impressum />;
   }
 
-  if (path === "/datenschutz") {
+  if (isPrivacyPath(path)) {
     return <Datenschutz />;
   }
 

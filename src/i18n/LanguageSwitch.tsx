@@ -1,5 +1,10 @@
 import { languages } from "./dictionaries";
 import { useLanguage } from "./LanguageContext";
+import { navigate } from "../nav";
+import {
+  isPrivacyPath,
+  privacyPathFor,
+} from "./privacyRoutes";
 import "./LanguageSwitch.css";
 
 type LanguageSwitchProps = {
@@ -23,7 +28,12 @@ export default function LanguageSwitch({ tone = "light" }: LanguageSwitchProps) 
           <button
             type="button"
             className={lang === item.id ? "is-active" : undefined}
-            onClick={() => setLang(item.id)}
+            onClick={() => {
+              setLang(item.id);
+              if (isPrivacyPath(window.location.pathname)) {
+                navigate(privacyPathFor(item.id));
+              }
+            }}
           >
             {item.label}
           </button>

@@ -1,12 +1,13 @@
 import { navigate } from "../nav";
 import { useLanguage } from "../i18n/LanguageContext";
+import { privacyPathFor } from "../i18n/privacyRoutes";
 
 type LegalLinksProps = {
   className?: string;
 };
 
 export default function LegalLinks({ className }: LegalLinksProps) {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
 
   return (
     <div className={className ?? "legal-links"}>
@@ -14,7 +15,7 @@ export default function LegalLinks({ className }: LegalLinksProps) {
         {t.imprint}
       </button>
       <span aria-hidden="true">·</span>
-      <button type="button" onClick={() => navigate("/datenschutz")}>
+      <button type="button" onClick={() => navigate(privacyPathFor(lang))}>
         {t.privacy}
       </button>
       <span aria-hidden="true">·</span>

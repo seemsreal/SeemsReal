@@ -16,7 +16,27 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://seemsreal.studio/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://seemsreal.studio/datenschutz</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://seemsreal.studio/confidentialite</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://seemsreal.studio/privacidad</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://seemsreal.studio/informativa-privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

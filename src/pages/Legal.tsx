@@ -1,7 +1,12 @@
 import type { ReactNode } from "react";
+import { useEffect } from "react";
 import { navigate } from "../nav";
 import LanguageSwitch from "../i18n/LanguageSwitch";
 import { useLanguage } from "../i18n/LanguageContext";
+import {
+  langFromPrivacyPath,
+  privacyTitles,
+} from "../i18n/privacyRoutes";
 import LegalLinks from "../components/LegalLinks";
 import "../components/LegalLinks.css";
 import "./Legal.css";
@@ -1400,18 +1405,23 @@ function PrivacyNoticeFr() {
 }
 
 export function Datenschutz() {
-  const { lang } = useLanguage();
+  const { lang, setLang } = useLanguage();
 
-  const title =
-    lang === "de"
-      ? "Datenschutzerklärung"
-      : lang === "it"
-        ? "Informativa sulla Privacy"
-        : lang === "es"
-          ? "Política de Privacidad"
-          : lang === "fr"
-            ? "Politique de confidentialité"
-            : "Privacy";
+  useEffect(() => {
+    const fromPath = langFromPrivacyPath(window.location.pathname);
+    if (fromPath && fromPath !== lang) {
+      setLang(fromPath);
+    }
+  }, [setLang, lang]);
+
+  useEffect(() => {
+    const pageTitle = privacyTitles[lang];
+    document.title = `${pageTitle} | SEEMS REAL Studio`;
+    return () => {
+      document.title =
+        "SEEMS REAL Studio | Big Vision. Without the Big Production.";
+    };
+  }, [lang]);
 
   const body =
     lang === "de" ? (
@@ -1426,7 +1436,7 @@ export function Datenschutz() {
       <PrivacyNoticeEn />
     );
 
-  return <LegalPage title={title}>{body}</LegalPage>;
+  return <LegalPage title={privacyTitles[lang]}>{body}</LegalPage>;
 }
 
 export function Terms() {
