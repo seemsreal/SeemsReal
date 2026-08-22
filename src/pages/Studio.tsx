@@ -108,14 +108,6 @@ const work: WorkItem[] = [
     metaKey: "metaEditorial",
   },
   {
-    id: "fashion-13",
-    category: "fashion",
-    image: "/work/fashion-13.jpg",
-    aiModel: true,
-    titleKey: "catFashion",
-    metaKey: "metaEditorial",
-  },
-  {
     id: "swimwear-1",
     category: "swimwear",
     image: "/work/swimwear-01.png",
