@@ -445,7 +445,13 @@ export default function Studio() {
         <section id="contact" className="studio-contact">
           <p className="studio-label">{t.contactLabel}</p>
           <a href="mailto:seemsreal.studio@gmx.at">seemsreal.studio@gmx.at</a>
-          <p className="studio-contact-note">{t.contactNote}</p>
+          <p className="studio-contact-note">
+            {t.contactNote.split("\n\n").map((line) => (
+              <span key={line.slice(0, 28)} className="studio-contact-note-line">
+                {line}
+              </span>
+            ))}
+          </p>
         </section>
       </main>
 

@@ -571,6 +571,10 @@
   color: var(--ink-soft);
 }
 
+.studio-contact-note-line {
+  display: block;
+}
+
 .studio-footer {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
