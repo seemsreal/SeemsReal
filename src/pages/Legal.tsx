@@ -1639,9 +1639,24 @@ export function Terms() {
       <p>
         <strong>11. Revisions</strong>
         <br />
-        Package 01 (The Edit) includes 1 refinement round. Package 02 (The
-        Campaign) includes 2 refinement rounds. Bespoke projects follow the
-        offer. Additional changes are charged separately.
+        Package 01 (The Edit) includes one refinement round. Package 02 (The
+        Campaign) includes two refinement rounds. Bespoke projects include the
+        number of refinement rounds stated in the individual offer.
+        <br />
+        <br />
+        A refinement round covers reasonable adjustments to the agreed visual
+        direction, such as minor changes to composition, styling, details or
+        overall appearance.
+        <br />
+        <br />
+        Requests for a substantially new concept, setting, creative direction or
+        other changes outside the originally agreed brief are not considered a
+        refinement and may be quoted separately.
+        <br />
+        <br />
+        Additional refinement rounds or changes beyond the agreed scope may be
+        charged separately. Any additional costs will be communicated before the
+        additional work begins.
       </p>
 
       <p>
