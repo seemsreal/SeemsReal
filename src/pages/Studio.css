@@ -564,9 +564,10 @@
 
 .studio-contact-note {
   margin: 1.35rem auto 0;
-  max-width: 28ch;
+  max-width: min(42rem, 92%);
   font-size: 0.85rem;
-  line-height: 1.5;
+  line-height: 1.55;
+  letter-spacing: 0.04em;
   color: var(--ink-soft);
 }
 
