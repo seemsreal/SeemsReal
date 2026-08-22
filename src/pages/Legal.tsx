@@ -294,44 +294,49 @@ export function Datenschutz() {
         continue to apply after deletion from our active account.
       </p>
 
-      <p>
-        <strong>Legal bases</strong>
-        <br />
-        Where the GDPR applies, we process personal data on the following legal
-        bases:
-      </p>
+      <div className="legal-block">
+        <p>
+          <strong>Legal bases</strong>
+          <br />
+          Where the GDPR applies, we process personal data on the following
+          legal bases:
+        </p>
 
-      <p>
-        <span className="legal-subhead">
-          Contract and pre-contractual steps (Art. 6(1)(b) GDPR)
-        </span>
-        To respond to project inquiries, prepare offers, communicate about
-        potential or ongoing projects and provide our services.
-      </p>
+        <div className="legal-block-items">
+          <p>
+            <span className="legal-subhead">
+              Contract and pre-contractual steps (Art. 6(1)(b) GDPR)
+            </span>
+            To respond to project inquiries, prepare offers, communicate about
+            potential or ongoing projects and provide our services.
+          </p>
 
-      <p>
-        <span className="legal-subhead">
-          Legitimate interests (Art. 6(1)(f) GDPR)
-        </span>
-        To operate and secure our website, maintain necessary technical logs and
-        communicate efficiently with clients and prospective clients.
-      </p>
+          <p>
+            <span className="legal-subhead">
+              Legitimate interests (Art. 6(1)(f) GDPR)
+            </span>
+            To operate and secure our website, maintain necessary technical logs
+            and communicate efficiently with clients and prospective clients.
+          </p>
 
-      <p>
-        <span className="legal-subhead">
-          Legal obligations (Art. 6(1)(c) GDPR)
-        </span>
-        Where processing is necessary to comply with legal obligations
-        applicable to our business, including accounting, tax and
-        record-keeping requirements.
-      </p>
+          <p>
+            <span className="legal-subhead">
+              Legal obligations (Art. 6(1)(c) GDPR)
+            </span>
+            Where processing is necessary to comply with legal obligations
+            applicable to our business, including accounting, tax and
+            record-keeping requirements.
+          </p>
 
-      <p>
-        <span className="legal-subhead">Consent (Art. 6(1)(a) GDPR)</span>
-        Where processing is based on your consent, you may withdraw that consent
-        at any time with effect for the future. The withdrawal does not affect
-        the lawfulness of processing carried out before the withdrawal.
-      </p>
+          <p>
+            <span className="legal-subhead">Consent (Art. 6(1)(a) GDPR)</span>
+            Where processing is based on your consent, you may withdraw that
+            consent at any time with effect for the future. The withdrawal does
+            not affect the lawfulness of processing carried out before the
+            withdrawal.
+          </p>
+        </div>
+      </div>
 
       <p>
         <strong>Sharing of data</strong>
