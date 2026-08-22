@@ -320,13 +320,13 @@ export const dictionaries: Record<Lang, Dictionary> = {
     navOffer: "Offer",
     navContact: "Contacto",
     whatWeDo: "Qué hacemos",
-    headlineLine1: "Big vision.",
-    headlineLine2: "Without the big production.",
+    headlineLine1: "Una gran visión.",
+    headlineLine2: "Sin una gran producción.",
     ledeLead:
-      "¿Empezar una marca, crear una web o ampliar tu portfolio?",
+      "¿Estás creando una marca, desarrollando una página web o ampliando tu portfolio?",
     ledeRest:
-      "Usamos IA para convertir tu visión en imagery elevada — sin el tiempo, coste ni complejidad de un shooting tradicional.",
-    ledeClose: "Your product. Your vision. Made to seem real.",
+      "Utilizamos AI para transformar tu visión en imágenes de alta calidad, sin el tiempo, los costes ni la complejidad de una sesión de fotos tradicional.",
+    ledeClose: "Tu producto. Tu visión. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nuevos trabajos pronto.",
     catAll: "All",
