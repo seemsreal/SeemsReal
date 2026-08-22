@@ -143,7 +143,7 @@ const work: WorkItem[] = [
     image: "/work/verdelie-jar.png",
     aiModel: true,
     titleKey: "catBeauty",
-    metaKey: "metaAi",
+    metaKey: "metaStillLife",
   },
   {
     id: "beauty-2",
@@ -151,7 +151,7 @@ const work: WorkItem[] = [
     image: "/work/beauty-02.png",
     aiModel: true,
     titleKey: "catBeauty",
-    metaKey: "metaAi",
+    metaKey: "metaEditorial",
   },
   {
     id: "beauty-3",
@@ -159,7 +159,7 @@ const work: WorkItem[] = [
     image: "/work/beauty-03.png",
     aiModel: true,
     titleKey: "catBeauty",
-    metaKey: "metaAi",
+    metaKey: "metaEditorial",
   },
   {
     id: "beauty-4",
@@ -191,7 +191,7 @@ const work: WorkItem[] = [
     image: "/work/jewelry-01b.png?v=3",
     aiModel: true,
     titleKey: "catJewelry",
-    metaKey: "metaAi",
+    metaKey: "metaProduct",
   },
   {
     id: "jewelry-2",
@@ -329,7 +329,7 @@ export default function Studio() {
                             <span>{t.metaIoniClient}</span>
                             <span>{t.metaIoniDirection}</span>
                           </div>
-                        ) : (
+                        ) : item.metaKey !== "metaAi" ? (
                           <span>
                             {t[
                               item.metaKey as
@@ -337,10 +337,9 @@ export default function Studio() {
                                 | "metaEditorial"
                                 | "metaProduct"
                                 | "metaStillLife"
-                                | "metaAi"
                             ]}
                           </span>
-                        )}
+                        ) : null}
                       </div>
                     </button>
                   ) : (
@@ -360,7 +359,7 @@ export default function Studio() {
                             <span>{t.metaIoniClient}</span>
                             <span>{t.metaIoniDirection}</span>
                           </div>
-                        ) : (
+                        ) : item.metaKey !== "metaAi" ? (
                           <span>
                             {t[
                               item.metaKey as
@@ -368,10 +367,9 @@ export default function Studio() {
                                 | "metaEditorial"
                                 | "metaProduct"
                                 | "metaStillLife"
-                                | "metaAi"
                             ]}
                           </span>
-                        )}
+                        ) : null}
                       </div>
                     </>
                   )}
