@@ -1498,11 +1498,14 @@ export function Terms() {
       <p>
         <strong>3. Nature of AI output</strong>
         <br />
-        AI-generated outputs may contain unexpected similarities, inaccuracies,
-        or artefacts inherent to generative technology. While reasonable care is
-        taken during the creative process, no guarantee can be given that
-        AI-generated output will be entirely free from third-party rights or
-        unintended similarities.
+        Due to the nature of generative AI, outputs may occasionally contain
+        unexpected elements, inaccuracies, artefacts or unintended similarities
+        to existing content.
+        <br />
+        <br />
+        We take reasonable care when selecting and refining final visuals.
+        However, we cannot guarantee that AI-generated elements will be entirely
+        unique or free from unintended similarities to third-party content.
       </p>
 
       <p>
