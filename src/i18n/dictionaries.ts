@@ -225,7 +225,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       "Je besser wir dein Produkt sehen und verstehen können, desto authentischer können wir deine Vision zum Leben erwecken.",
     contactLabel: "Erzähl uns von deiner Vision",
     contactNote:
-      "Produkt, Deadline, Stil · wir melden uns mit einem klaren Angebot.",
+      "Teile die wichtigsten Details mit uns. Wir schauen uns dein Projekt persönlich an und erstellen ein Angebot, das zu deiner Marke passt.",
     imprint: "Impressum",
     privacy: "Datenschutz",
     terms: "Terms",
