@@ -204,6 +204,21 @@ export function Datenschutz() {
       </p>
 
       <p>
+        <strong>Website hosting</strong>
+        <br />
+        This website is hosted by Vercel Inc. When you visit our website, Vercel
+        may process technically necessary data, such as your IP address, browser
+        information and server log data, in order to deliver, operate and secure
+        the website.
+        <br />
+        <br />
+        Vercel is based in the United States and data may be processed outside
+        the European Economic Area. Where required, international data transfers
+        are protected through appropriate safeguards, including the European
+        Commission’s Standard Contractual Clauses.
+      </p>
+
+      <p>
         <strong>Language preference</strong>
         <br />
         Your selected language may be stored locally in your browser. This stays
