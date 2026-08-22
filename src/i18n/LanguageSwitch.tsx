@@ -5,6 +5,10 @@ import {
   isPrivacyPath,
   privacyPathFor,
 } from "./privacyRoutes";
+import {
+  isTermsPath,
+  termsPathFor,
+} from "./termsRoutes";
 import "./LanguageSwitch.css";
 
 type LanguageSwitchProps = {
@@ -32,6 +36,8 @@ export default function LanguageSwitch({ tone = "light" }: LanguageSwitchProps) 
               setLang(item.id);
               if (isPrivacyPath(window.location.pathname)) {
                 navigate(privacyPathFor(item.id));
+              } else if (isTermsPath(window.location.pathname)) {
+                navigate(termsPathFor(item.id));
               }
             }}
           >

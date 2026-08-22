@@ -7,6 +7,10 @@ import {
   langFromPrivacyPath,
   privacyTitles,
 } from "../i18n/privacyRoutes";
+import {
+  langFromTermsPath,
+  termsTitles,
+} from "../i18n/termsRoutes";
 import LegalLinks from "../components/LegalLinks";
 import "../components/LegalLinks.css";
 import "./Legal.css";
@@ -3765,16 +3769,15 @@ function TermsNoticeFr() {
   );
 }
 
-const termsTitles = {
-  en: "Terms & Conditions",
-  de: "Allgemeine Geschäftsbedingungen",
-  it: "Termini e Condizioni",
-  es: "Términos y Condiciones",
-  fr: "Conditions Générales",
-} as const;
-
 export function Terms() {
-  const { lang } = useLanguage();
+  const { lang, setLang } = useLanguage();
+
+  useEffect(() => {
+    const fromPath = langFromTermsPath(window.location.pathname);
+    if (fromPath && fromPath !== lang) {
+      setLang(fromPath);
+    }
+  }, [setLang, lang]);
 
   useEffect(() => {
     document.title = `${termsTitles[lang]} | SEEMS REAL Studio`;

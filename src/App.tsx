@@ -8,6 +8,7 @@ import {
   Terms,
 } from "./pages/Legal";
 import { isPrivacyPath } from "./i18n/privacyRoutes";
+import { isTermsPath } from "./i18n/termsRoutes";
 
 function subscribe(onStoreChange: () => void) {
   window.addEventListener("popstate", onStoreChange);
@@ -33,7 +34,7 @@ export default function App() {
     return <Datenschutz />;
   }
 
-  if (path === "/terms") {
+  if (isTermsPath(path)) {
     return <Terms />;
   }
 
