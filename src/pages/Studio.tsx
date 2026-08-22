@@ -3,6 +3,8 @@ import { navigate } from "../nav";
 import LanguageSwitch from "../i18n/LanguageSwitch";
 import { useLanguage } from "../i18n/LanguageContext";
 import type { Dictionary } from "../i18n/dictionaries";
+import LegalLinks from "../components/LegalLinks";
+import "../components/LegalLinks.css";
 import "./Studio.css";
 
 type CategoryId = "all" | "swimwear" | "beauty" | "jewelry" | "fashion";
@@ -455,23 +457,7 @@ export default function Studio() {
 
       <footer className="studio-footer">
         <span>SEEMS REAL</span>
-        <div className="studio-footer-links">
-          <button type="button" onClick={() => navigate("/impressum")}>
-            {t.imprint}
-          </button>
-          <span aria-hidden="true">·</span>
-          <button type="button" onClick={() => navigate("/datenschutz")}>
-            {t.privacy}
-          </button>
-          <span aria-hidden="true">·</span>
-          <button type="button" onClick={() => navigate("/terms")}>
-            {t.terms}
-          </button>
-          <span aria-hidden="true">·</span>
-          <button type="button" onClick={() => navigate("/ai-transparency")}>
-            {t.aiTransparency}
-          </button>
-        </div>
+        <LegalLinks className="legal-links studio-footer-links" />
       </footer>
     </div>
   );

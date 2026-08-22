@@ -1,6 +1,8 @@
 import { navigate } from "../nav";
 import LanguageSwitch from "../i18n/LanguageSwitch";
 import { useLanguage } from "../i18n/LanguageContext";
+import LegalLinks from "../components/LegalLinks";
+import "../components/LegalLinks.css";
 import "./Landing.css";
 
 export default function Landing() {
@@ -25,21 +27,7 @@ export default function Landing() {
       </section>
 
       <footer className="landing-legal">
-        <button type="button" onClick={() => navigate("/impressum")}>
-          {t.imprint}
-        </button>
-        <span aria-hidden="true">·</span>
-        <button type="button" onClick={() => navigate("/datenschutz")}>
-          {t.privacy}
-        </button>
-        <span aria-hidden="true">·</span>
-        <button type="button" onClick={() => navigate("/terms")}>
-          {t.terms}
-        </button>
-        <span aria-hidden="true">·</span>
-        <button type="button" onClick={() => navigate("/ai-transparency")}>
-          {t.aiTransparency}
-        </button>
+        <LegalLinks />
       </footer>
     </div>
   );

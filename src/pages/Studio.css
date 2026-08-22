@@ -596,17 +596,9 @@
 .studio-footer-links {
   grid-column: 3;
   justify-self: end;
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
 }
 
-.studio-footer-links button {
-  padding: 0;
-  transition: opacity 0.25s ease;
-}
-
-.studio-footer-links button:hover {
+.studio-footer-links.legal-links {
   opacity: 1;
 }
 

@@ -2,6 +2,8 @@ import type { ReactNode } from "react";
 import { navigate } from "../nav";
 import LanguageSwitch from "../i18n/LanguageSwitch";
 import { useLanguage } from "../i18n/LanguageContext";
+import LegalLinks from "../components/LegalLinks";
+import "../components/LegalLinks.css";
 import "./Legal.css";
 
 type LegalPageProps = {
@@ -30,6 +32,10 @@ function LegalPage({ title, children }: LegalPageProps) {
         <h1>{title}</h1>
         <div className="legal-body">{children}</div>
       </main>
+
+      <footer className="legal-footer">
+        <LegalLinks />
+      </footer>
     </div>
   );
 }
