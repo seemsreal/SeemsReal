@@ -1752,19 +1752,20 @@ export function Terms() {
         <strong>16. AI disclosure and labeling</strong>
         <br />
         The Client expressly acknowledges that the deliverables are created
-        wholly or partly using generative AI. Following delivery, the Client is
-        solely responsible for determining and complying with any disclosure,
-        labeling or transparency requirements applicable to the Client’s
-        publication, advertising or other use of the deliverables, including
-        requirements under applicable law and platform policies.
+        wholly or partly using generative AI.
         <br />
         <br />
-        SEEMS REAL is responsible for the creation and delivery of the agreed
-        visuals and does not assume responsibility for the Client’s subsequent
-        publication, distribution or use of the deliverables or for the Client’s
-        downstream compliance obligations. Transparency rules under Article 50
-        of the EU AI Act apply as of 2 August 2026; which concrete duties apply
-        depends on the content and use case.
+        Following delivery, the Client is responsible for determining and
+        complying with any disclosure, labeling or transparency requirements
+        applicable to the Client’s publication, advertising or other use of the
+        deliverables, including requirements under applicable law, the EU AI Act
+        and relevant platform policies.
+        <br />
+        <br />
+        SEEMS REAL Studio is responsible for the creation and delivery of the
+        agreed visuals but does not assume responsibility for the Client’s
+        subsequent publication, distribution or use of the deliverables or for
+        compliance obligations arising from such use.
       </p>
 
       <p>
