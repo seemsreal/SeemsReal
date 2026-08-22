@@ -1,0 +1,40 @@
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.lang-switch-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.lang-switch-sep {
+  opacity: 0.35;
+  margin-inline: 0.1rem;
+}
+
+.lang-switch button {
+  padding: 0.15rem 0.1rem;
+  color: inherit;
+  opacity: 0.38;
+  transition: opacity 0.2s ease;
+}
+
+.lang-switch button:hover {
+  opacity: 0.8;
+}
+
+.lang-switch button.is-active {
+  opacity: 1;
+}
+
+.lang-switch-dark {
+  color: #f5f0e8;
+}
