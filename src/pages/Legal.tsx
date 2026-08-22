@@ -213,10 +213,12 @@ export function Datenschutz() {
       <p>
         <strong>Email communication</strong>
         <br />
-        We use GMX for email communication. When you contact us by email, the
-        information you provide, including your email address and message
-        content, is processed through our email service provider for the purpose
-        of handling your inquiry and communicating with you.
+        We use GMX, a service provided by 1&amp;1 Mail &amp; Media GmbH, for our
+        email communication. When you contact us by email, the information you
+        provide, including your email address and message content, is processed
+        through this service for the purpose of handling your inquiry and
+        communicating with you. GMX stores email data in data centres in
+        Germany.
       </p>
 
       <p>
