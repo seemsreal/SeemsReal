@@ -1559,9 +1559,15 @@ export function Terms() {
       <p>
         <strong>7. Third-party references</strong>
         <br />
-        Moodboards and references are for creative orientation only. We do not
-        guarantee identical reproduction of any third-party work, campaign, or
-        brand look.
+        Moodboards, reference images and third-party creative materials provided
+        by the Client are used solely for creative orientation, such as defining
+        the desired mood, aesthetic, composition, lighting or overall visual
+        direction.
+        <br />
+        <br />
+        References are not intended to be reproduced identically, and SEEMS REAL
+        Studio does not guarantee or undertake the exact replication of any
+        third-party image, artwork, campaign, design or brand identity.
       </p>
 
       <p>
