@@ -1767,7 +1767,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>17. Liability</strong>
+        <strong>18. Liability</strong>
         <br />
         We are liable without limitation for intent and gross negligence, and for
         injury to life, body, or health. In cases of slight negligence, we are
@@ -1778,7 +1778,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>18. Client compliance</strong>
+        <strong>19. Client compliance</strong>
         <br />
         You are responsible for ensuring your use of the deliverables complies
         with advertising, platform, consumer, intellectual property, and other
@@ -1786,7 +1786,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>19. Governing law</strong>
+        <strong>20. Governing law</strong>
         <br />
         Austrian law applies, excluding conflict-of-law rules, unless mandatory
         consumer provisions require otherwise. Place of performance and
