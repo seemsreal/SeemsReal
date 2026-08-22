@@ -263,6 +263,7 @@ export default function Studio() {
           <p className="studio-lede">
             <span className="studio-lede-a">{t.ledeLead}</span>
             <span className="studio-lede-b">{t.ledeRest}</span>
+            <span className="studio-lede-c">{t.ledeClose}</span>
           </p>
         </section>
 

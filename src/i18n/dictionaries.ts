@@ -18,6 +18,7 @@ export type Dictionary = {
   headlineLine2: string;
   ledeLead: string;
   ledeRest: string;
+  ledeClose: string;
   selectedWork: string;
   workEmpty: string;
   catAll: string;
@@ -79,7 +80,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ledeLead:
       "Starting a brand, building a website or expanding your portfolio?",
     ledeRest:
-      "We use AI to turn your vision into elevated imagery — without the time, cost or complexity of a traditional photoshoot. Your product. Your vision. Made to seem real.",
+      "We use AI to turn your vision into elevated imagery — without the time, cost or complexity of a traditional photoshoot.",
+    ledeClose: "Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "New work coming soon.",
     catAll: "All",
@@ -159,7 +161,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ledeLead:
       "Du gründest eine Marke, baust eine Website auf oder möchtest dein Portfolio erweitern?",
     ledeRest:
-      "Wir nutzen AI, um deine Vision in hochwertige Bildwelten zu verwandeln, ohne den Zeitaufwand, die Kosten und die Komplexität eines klassischen Fotoshootings. Dein Produkt. Deine Vision. Made to seem real.",
+      "Wir nutzen AI, um deine Vision in hochwertige Bildwelten zu verwandeln, ohne den Zeitaufwand, die Kosten und die Komplexität eines klassischen Fotoshootings.",
+    ledeClose: "Dein Produkt. Deine Vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Neue Arbeiten folgen bald.",
     catAll: "All",
@@ -240,7 +243,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ledeLead:
       "Lancer une marque, créer un site ou développer votre portfolio ?",
     ledeRest:
-      "Nous utilisons l’IA pour transformer votre vision en images élevées — sans le temps, le coût ni la complexité d’un shooting traditionnel. Your product. Your vision. Made to seem real.",
+      "Nous utilisons l’IA pour transformer votre vision en images élevées — sans le temps, le coût ni la complexité d’un shooting traditionnel.",
+    ledeClose: "Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nouveaux travaux bientôt.",
     catAll: "All",
@@ -321,7 +325,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ledeLead:
       "¿Empezar una marca, crear una web o ampliar tu portfolio?",
     ledeRest:
-      "Usamos IA para convertir tu visión en imagery elevada — sin el tiempo, coste ni complejidad de un shooting tradicional. Your product. Your vision. Made to seem real.",
+      "Usamos IA para convertir tu visión en imagery elevada — sin el tiempo, coste ni complejidad de un shooting tradicional.",
+    ledeClose: "Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nuevos trabajos pronto.",
     catAll: "All",
@@ -402,7 +407,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ledeLead:
       "Lanciare un brand, creare un sito o ampliare il portfolio?",
     ledeRest:
-      "Usiamo l’AI per trasformare la tua visione in imagery elevata — senza tempo, costi e complessità di uno shooting tradizionale. Your product. Your vision. Made to seem real.",
+      "Usiamo l’AI per trasformare la tua visione in imagery elevata — senza tempo, costi e complessità di uno shooting tradizionale.",
+    ledeClose: "Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nuovi lavori in arrivo.",
     catAll: "All",
