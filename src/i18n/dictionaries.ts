@@ -197,9 +197,9 @@ export const dictionaries: Record<Lang, Dictionary> = {
     pkg2Num: "Package 02",
     pkg2Title: "The Campaign",
     pkg2Price: "€650",
-    pkg2Lead: "Eine vollständige visuelle Welt — durchdacht um deine Marke.",
+    pkg2Lead: "Eine vollständige Bildwelt, mit viel Feingefühl rund um deine Marke entwickelt.",
     pkg2Body:
-      "Zwanzig maßgeschneiderte Visuals, die deine Produkte über Settings und digitale Formate hinweg zum Leben bringen. Eine kohärente visuelle Präsenz.",
+      "Zwanzig individuelle Visuals, die deine Produkte in unterschiedlichen Settings und digitalen Formaten zum Leben erwecken. Eine stimmige visuelle Welt für deinen gesamten digitalen Auftritt.",
     pkg2Includes: [
       "20 maßgeschneiderte Visuals",
       "Mehrere Creative Directions & Settings",
