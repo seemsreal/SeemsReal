@@ -402,13 +402,13 @@ export const dictionaries: Record<Lang, Dictionary> = {
     navOffer: "Offer",
     navContact: "Contatto",
     whatWeDo: "Cosa facciamo",
-    headlineLine1: "Big vision.",
-    headlineLine2: "Without the big production.",
+    headlineLine1: "Grande visione.",
+    headlineLine2: "Senza una grande produzione.",
     ledeLead:
-      "Lanciare un brand, creare un sito o ampliare il portfolio?",
+      "Stai creando un brand, costruendo un sito web o ampliando il tuo portfolio?",
     ledeRest:
-      "Usiamo l’AI per trasformare la tua visione in imagery elevata — senza tempo, costi e complessità di uno shooting tradizionale.",
-    ledeClose: "Your product. Your vision. Made to seem real.",
+      "Utilizziamo l’AI per trasformare la tua visione in immagini di alto livello, senza i tempi, i costi e la complessità di uno shooting fotografico tradizionale.",
+    ledeClose: "Il tuo prodotto. La tua visione. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nuovi lavori in arrivo.",
     catAll: "All",
