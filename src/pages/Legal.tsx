@@ -352,8 +352,23 @@ export function Datenschutz() {
       <p>
         <strong>Retention</strong>
         <br />
-        We keep personal data only as long as needed for the respective purpose
-        or as required by law.
+        We retain personal data only for as long as necessary for the purpose for
+        which it was collected or for as long as required by applicable law.
+        <br />
+        <br />
+        Project materials, including product images, reference images, logos and
+        briefing materials, are deleted after the project has been completed,
+        unless the client asks us to retain them for future projects. In this
+        case, the materials are retained until they are no longer required or
+        until the client requests their deletion.
+        <br />
+        <br />
+        Business, accounting and invoicing records are retained for the periods
+        required under applicable Austrian law.
+        <br />
+        <br />
+        Where data is processed through third-party service providers, their own
+        technical retention and backup periods may also apply.
       </p>
 
       <p>
