@@ -1443,9 +1443,16 @@ export function Terms() {
   return (
     <LegalPage title="Terms & Conditions">
       <p>
-        These Terms apply to projects commissioned from SEEMS REAL Studio
-        (“we”, “us”). Individual offers may add project-specific details. By
-        confirming an order, the client (“you”) accepts these Terms.
+        These Terms apply to all projects commissioned from SEEMS REAL Studio
+        (“we”, “us”). Individual offers may contain project-specific terms and
+        details. In the event of any conflict between these Terms and an
+        individual offer, the terms of the individual offer will prevail for the
+        relevant project.
+      </p>
+
+      <p>
+        By confirming an order or accepting an offer, the client (“you”) accepts
+        these Terms.
       </p>
 
       <p>
