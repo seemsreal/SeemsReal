@@ -1851,10 +1851,18 @@ export function Terms() {
       <p>
         <strong>21. Governing law</strong>
         <br />
-        Austrian law applies, excluding conflict-of-law rules, unless mandatory
-        consumer provisions require otherwise. Place of performance and
-        jurisdiction follow applicable Austrian rules for B2B contracts where
-        permitted.
+        These Terms and the contractual relationship between the Client and
+        SEEMS REAL Studio are governed by Austrian law, excluding its
+        conflict-of-law rules.
+        <br />
+        <br />
+        For disputes arising out of or in connection with the contractual
+        relationship, the competent courts in Austria shall have jurisdiction to
+        the extent that such jurisdiction may validly be agreed under applicable
+        law.
+        <br />
+        <br />
+        Any mandatory provisions of applicable law remain unaffected.
       </p>
 
       <p className="legal-note">
