@@ -1771,11 +1771,19 @@ export function Terms() {
       <p>
         <strong>17. Portfolio usage</strong>
         <br />
-        Unless otherwise agreed, we may show approved project visuals in our
-        portfolio (including website and social channels) as selected work.
-        Portfolio publication will only take place after the Client has publicly
-        released the relevant product or campaign, unless otherwise agreed. We
-        will not disclose confidential business details.
+        Unless otherwise agreed in writing, SEEMS REAL Studio may use approved
+        final visuals created for the Client for its own portfolio, website,
+        social media and self-promotional purposes.
+        <br />
+        <br />
+        Where the project relates to an unreleased product, collection or
+        campaign, SEEMS REAL Studio will not publicly share the relevant visuals
+        before the Client has publicly released the respective product,
+        collection or campaign, unless the Client has given prior permission.
+        <br />
+        <br />
+        Confidential business information, internal materials and non-public
+        project details will not be disclosed as part of such portfolio use.
       </p>
 
       <p>
