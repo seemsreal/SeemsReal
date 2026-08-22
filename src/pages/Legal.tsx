@@ -1689,7 +1689,31 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>13. Delivery</strong>
+        <strong>13. Cancellation</strong>
+        <br />
+        The Client may cancel a project by notifying SEEMS REAL Studio in
+        writing.
+        <br />
+        <br />
+        If a project is cancelled before production has started, any amounts
+        paid will be handled in accordance with the individual offer.
+        <br />
+        <br />
+        Once production has started, work already performed and any costs
+        incurred up to the date of cancellation remain payable. Any deposit paid
+        may be retained to cover work already performed and costs incurred.
+        <br />
+        <br />
+        If the value of the work already performed exceeds the deposit or amount
+        already paid, SEEMS REAL Studio may invoice the Client for the
+        outstanding amount.
+        <br />
+        <br />
+        Any mandatory rights that cannot legally be excluded remain unaffected.
+      </p>
+
+      <p>
+        <strong>14. Delivery</strong>
         <br />
         Estimated delivery timelines are stated in the offer and begin once we
         have received payment (where required) and complete briefing materials.
@@ -1698,7 +1722,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>14. AI disclosure and labeling</strong>
+        <strong>15. AI disclosure and labeling</strong>
         <br />
         The Client expressly acknowledges that the deliverables are created
         wholly or partly using generative AI. Following delivery, the Client is
@@ -1717,7 +1741,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>15. Portfolio usage</strong>
+        <strong>16. Portfolio usage</strong>
         <br />
         Unless otherwise agreed, we may show approved project visuals in our
         portfolio (including website and social channels) as selected work.
@@ -1727,7 +1751,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>16. Liability</strong>
+        <strong>17. Liability</strong>
         <br />
         We are liable without limitation for intent and gross negligence, and for
         injury to life, body, or health. In cases of slight negligence, we are
@@ -1738,7 +1762,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>17. Client compliance</strong>
+        <strong>18. Client compliance</strong>
         <br />
         You are responsible for ensuring your use of the deliverables complies
         with advertising, platform, consumer, intellectual property, and other
@@ -1746,7 +1770,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>18. Governing law</strong>
+        <strong>19. Governing law</strong>
         <br />
         Austrian law applies, excluding conflict-of-law rules, unless mandatory
         consumer provisions require otherwise. Place of performance and
