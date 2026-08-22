@@ -172,9 +172,9 @@ export function Datenschutz() {
   return (
     <LegalPage title="Privacy">
       <p>
-        We take the protection of personal data seriously. This notice explains
-        what personal data we process when you use this website or work with
-        SEEMS REAL Studio.
+        We take the protection of personal data seriously. This Privacy Notice
+        explains what personal data we process when you use this website,
+        contact us or work with SEEMS REAL Studio.
       </p>
 
       <p>
@@ -195,18 +195,11 @@ export function Datenschutz() {
       <p>
         <strong>Categories of data</strong>
         <br />
-        Depending on how you interact with us, we may process: name, company
+        Depending on how you interact with us, we may process your name, company
         name, email address, phone number, billing details, message content,
-        briefing materials, product images and other files you send us, and
-        technical website data (for example IP address and browser information
-        via hosting logs).
-      </p>
-
-      <p>
-        <strong>Website use</strong>
-        <br />
-        When you visit the website, our hosting provider may process technically
-        necessary server-log data to deliver and secure the site.
+        briefing materials, product images and other files you provide to us, as
+        well as technical website data such as IP address and browser
+        information.
       </p>
 
       <p>
@@ -253,53 +246,27 @@ export function Datenschutz() {
       </p>
 
       <p>
-        <strong>Project communication and files</strong>
+        <strong>Project communication and AI processing</strong>
         <br />
-        If you contact us or commission work, we process the information needed
-        to handle your inquiry, create visuals, manage delivery, and prepare
-        invoices. This may include product photos, logos, moodboards, reference
-        images, and related briefing materials.
-      </p>
-
-      <p>
-        <strong>Use of AI tools</strong>
-        <br />
-        To create AI-assisted visuals, we may use third-party generative AI
-        services. Where necessary for production, briefing materials or product
-        images you provide may be processed by those tools according to their
-        terms and privacy practices. Please do not send us materials you are not
-        allowed to share for this purpose. If files contain identifiable people,
-        please tell us in advance so we can assess whether and how they may be
-        used.
-      </p>
-
-      <p>
-        <strong>Project files and AI processing</strong>
-        <br />
-        Files and materials provided by the client, including product images,
-        reference images, logos and briefing materials, are used solely for the
-        purpose of creating and delivering the commissioned work.
+        If you contact us or commission work, we process the information
+        necessary to handle your inquiry, prepare an offer, communicate with
+        you, create and deliver commissioned visuals and prepare invoices.
         <br />
         <br />
-        During the collaboration, these materials may be stored by us and
-        uploaded to third-party generative AI services where necessary to create
-        the commissioned visuals.
+        This may include product images, reference images, logos, moodboards and
+        other briefing materials provided by you.
         <br />
         <br />
-        Once the project has been completed, we delete the client’s project
-        materials from our own storage and, where available to us, from the
-        third-party AI tools used for the project, unless otherwise agreed with
-        the client.
+        Client materials are used solely for the purpose of creating and
+        delivering the commissioned work. Where necessary for the creation of
+        AI-assisted visuals, selected project materials may be uploaded to and
+        processed through third-party generative AI services.
         <br />
         <br />
-        At the client’s request, project materials may be retained by us and
-        within the relevant AI tools for future projects and continued
-        collaboration. The client may request deletion at any time.
-        <br />
-        <br />
-        Third-party services may be subject to their own technical retention
-        periods, backup procedures and data-processing practices, which may
-        continue to apply after deletion from our active account.
+        Please do not provide materials that you are not authorised to share or
+        allow us to process for this purpose. If any materials contain
+        identifiable individuals, please inform us in advance so that we can
+        assess whether and how they may be processed.
       </p>
 
       <div className="legal-block">
@@ -349,19 +316,29 @@ export function Datenschutz() {
       <p>
         <strong>Sharing of data</strong>
         <br />
-        We do not sell personal data. Data may be processed by service providers
-        needed to run the website and deliver projects (for example hosting,
-        email, invoicing, or AI production tools), under appropriate arrangements
-        where required.
+        We do not sell personal data.
+        <br />
+        <br />
+        Personal data may be processed by service providers that are necessary
+        to operate our website, communicate with clients, fulfil legal and
+        administrative obligations and deliver commissioned projects. These may
+        include hosting, email, invoicing and generative AI service providers.
+        <br />
+        <br />
+        We only share personal data where necessary for the relevant purpose and
+        subject to appropriate data protection arrangements where required.
       </p>
 
       <p>
         <strong>International data transfers</strong>
         <br />
-        Some of the third-party services we use may process data outside the
-        European Economic Area (EEA). Where personal data is transferred
-        internationally, we take appropriate measures to ensure that applicable
-        data protection requirements are respected.
+        Some third-party service providers we use may process personal data
+        outside the European Economic Area (EEA).
+        <br />
+        <br />
+        Where personal data is transferred internationally, we take appropriate
+        measures to ensure that applicable data protection requirements are
+        respected and that appropriate safeguards are used where required.
       </p>
 
       <p>
@@ -372,26 +349,35 @@ export function Datenschutz() {
         <br />
         <br />
         Project materials, including product images, reference images, logos and
-        briefing materials, are deleted after the project has been completed,
-        unless the client asks us to retain them for future projects. In this
-        case, the materials are retained until they are no longer required or
-        until the client requests their deletion.
+        briefing materials, are normally deleted from our own storage and, where
+        available to us, from the third-party AI tools used for the project once
+        the commissioned project has been completed.
+        <br />
+        <br />
+        If agreed with the client, project materials may instead be retained by
+        us and within the relevant AI tools for future projects and continued
+        collaboration. The client may request deletion of retained project
+        materials at any time, subject to applicable legal retention
+        obligations.
+        <br />
+        <br />
+        Third-party service providers may be subject to their own technical
+        retention periods, backup procedures and data-processing practices,
+        which may continue to apply after deletion from our active account.
         <br />
         <br />
         Business, accounting and invoicing records are retained for the periods
         required under applicable Austrian law.
-        <br />
-        <br />
-        Where data is processed through third-party service providers, their own
-        technical retention and backup periods may also apply.
       </p>
 
       <p>
         <strong>Your rights</strong>
         <br />
-        Under the GDPR, you may have the right to access your personal data,
-        request correction or deletion, restrict or object to certain
-        processing, and receive your data in a portable format where applicable.
+        Subject to the conditions provided by the GDPR, you have the right to
+        request access to your personal data, correction or deletion of your
+        personal data, restriction of processing, to object to certain
+        processing and to receive your data in a portable format where
+        applicable.
         <br />
         <br />
         Where processing is based on your consent, you may withdraw your consent
@@ -399,26 +385,14 @@ export function Datenschutz() {
         <br />
         <br />
         If you believe that the processing of your personal data infringes
-        applicable data protection law, you also have the right to lodge a
-        complaint with the Austrian Data Protection Authority (Österreichische
+        applicable data protection law, you have the right to lodge a complaint
+        with the Austrian Data Protection Authority (Österreichische
         Datenschutzbehörde) or another competent supervisory authority.
         <br />
         <br />
         To exercise your rights or for any questions regarding your personal
         data, please contact us at{" "}
-        <a href="mailto:seemsreal.studio@gmx.at">seemsreal.studio@gmx.at</a>.
-      </p>
-
-      <p>
-        <strong>Contact for privacy requests</strong>
-        <br />
-        Email{" "}
-        <a href="mailto:seemsreal.studio@gmx.at">seemsreal.studio@gmx.at</a>.
-      </p>
-
-      <p className="legal-note">
-        Update once final hosting, AI vendors, and tools are confirmed. Have an
-        Austrian lawyer or WKO review before launch. Not legal advice.
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>.
       </p>
     </LegalPage>
   );
