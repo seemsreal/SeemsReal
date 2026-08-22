@@ -493,8 +493,8 @@
 
 .studio-package-cta {
   display: inline-block;
-  margin-top: auto;
-  padding-top: 1.5rem;
+  margin-top: 2.5rem;
+  padding-top: 0;
   font-size: 0.78rem;
   font-weight: 500;
   letter-spacing: 0.06em;

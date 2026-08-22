@@ -209,10 +209,10 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ],
     pkg3Num: "Package 03",
     pkg3Title: "Bespoke",
-    pkg3Price: "Auf Anfrage",
-    pkg3Lead: "Komplett um deine Vision herum gebaut.",
+    pkg3Price: "Individuelle Preisgestaltung",
+    pkg3Lead: "Ganz nach deiner Vision.",
     pkg3Body:
-      "Jede Marke ist anders. Wir gestalten ein Bespoke-Paket für Produkte, Ästhetik, kreative Vision und Content-Bedarf — von einzelnen Konzepten bis zu größeren Campaigns.",
+      "Jede Marke ist einzigartig. Deshalb entwickeln wir ein individuelles Paket, abgestimmt auf deine Produkte, deine Ästhetik, deine kreative Vision und deinen Content Bedarf.\n\nVon einzelnen Konzepten bis hin zu umfangreichen Kampagnen kreieren wir genau das, was zu deiner Marke und deinem digitalen Auftritt passt.",
     pkg3Cta: "Lass uns ein kostenloses Call machen und gemeinsam etwas schaffen →",
     process: "Process",
     processKicker: "Was wir von dir brauchen",

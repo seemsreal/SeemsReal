@@ -415,7 +415,11 @@ export default function Studio() {
               <h2>{t.pkg3Title}</h2>
               <p className="studio-package-price">{t.pkg3Price}</p>
               <p className="studio-package-lead">{t.pkg3Lead}</p>
-              <p className="studio-package-body">{t.pkg3Body}</p>
+              {t.pkg3Body.split("\n\n").map((para) => (
+                <p key={para.slice(0, 32)} className="studio-package-body">
+                  {para}
+                </p>
+              ))}
               <a className="studio-package-cta" href="#contact">
                 {t.pkg3Cta}
               </a>
