@@ -77,9 +77,15 @@
 
 .landing-legal {
   position: absolute;
-  right: clamp(1.25rem, 4vw, 3rem);
+  left: 0;
+  right: 0;
   bottom: 1.25rem;
-  left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.landing-legal .legal-links {
+  justify-content: center;
 }
 
 @keyframes landing-rise {
