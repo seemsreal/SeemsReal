@@ -95,6 +95,7 @@ const work: WorkItem[] = [
     id: "fashion-11",
     category: "fashion",
     image: "/work/fashion-11.jpg",
+    aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaProduct",
   },
