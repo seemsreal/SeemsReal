@@ -143,7 +143,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     processP3:
       "The better we can see and understand your product, the more accurately we can bring your vision to life.",
     contactLabel: "Project inquiries",
-    contactNote: "Product, deadline, style · we’ll come back with a clear offer.",
+    contactNote:
+      "Share the key details with us.\n\nWe’ll personally review your project and create an offer tailored to your brand.",
     imprint: "Imprint",
     privacy: "Privacy",
     terms: "Terms",
