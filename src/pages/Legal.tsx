@@ -1787,7 +1787,26 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>18. Liability</strong>
+        <strong>18. Third-party availability and force majeure</strong>
+        <br />
+        SEEMS REAL Studio may rely on third-party software, generative AI tools
+        and other service providers to perform the commissioned services.
+        <br />
+        <br />
+        We are not responsible for delays or temporary inability to perform the
+        services caused by circumstances beyond our reasonable control,
+        including significant outages or unavailability of third-party services,
+        technical infrastructure failures, or other events that could not
+        reasonably have been prevented.
+        <br />
+        <br />
+        In such cases, we will make reasonable efforts to resume the project as
+        soon as practicable and will inform the Client if the estimated delivery
+        timeline is materially affected.
+      </p>
+
+      <p>
+        <strong>19. Liability</strong>
         <br />
         We are liable without limitation for intent and gross negligence, and for
         injury to life, body, or health. In cases of slight negligence, we are
@@ -1798,7 +1817,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>19. Client compliance</strong>
+        <strong>20. Client compliance</strong>
         <br />
         You are responsible for ensuring your use of the deliverables complies
         with advertising, platform, consumer, intellectual property, and other
@@ -1806,7 +1825,7 @@ export function Terms() {
       </p>
 
       <p>
-        <strong>20. Governing law</strong>
+        <strong>21. Governing law</strong>
         <br />
         Austrian law applies, excluding conflict-of-law rules, unless mandatory
         consumer provisions require otherwise. Place of performance and
