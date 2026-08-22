@@ -893,6 +893,257 @@ function PrivacyNoticeIt() {
   );
 }
 
+function PrivacyNoticeEs() {
+  return (
+    <>
+      <p>
+        La protección de los datos personales es importante para nosotros. Esta
+        Política de Privacidad explica qué datos personales tratamos cuando
+        utilizas este sitio web, te pones en contacto con nosotros o trabajas
+        con SEEMS REAL Studio.
+      </p>
+
+      <p>
+        <strong>Responsable del tratamiento</strong>
+        <br />
+        {impressum.name} / {impressum.brand}
+        <br />
+        {impressum.street}
+        <br />
+        {impressum.city}
+        <br />
+        Austria
+        <br />
+        Correo electrónico:{" "}
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
+      </p>
+
+      <p>
+        <strong>Categorías de datos personales</strong>
+        <br />
+        Dependiendo de cómo interactúes con nosotros, podemos tratar tu nombre,
+        nombre de la empresa, dirección de correo electrónico, número de
+        teléfono, datos de facturación, contenido de los mensajes, materiales de
+        briefing, imágenes de productos y otros archivos que nos proporciones,
+        así como datos técnicos del sitio web, como la dirección IP y la
+        información del navegador.
+      </p>
+
+      <p>
+        <strong>Alojamiento del sitio web</strong>
+        <br />
+        Este sitio web está alojado por Vercel Inc. Cuando visitas nuestro sitio
+        web, Vercel puede tratar datos técnicamente necesarios, como tu
+        dirección IP, información del navegador y datos de registro del
+        servidor, con el fin de proporcionar, operar y proteger el sitio web.
+        <br />
+        <br />
+        Vercel tiene su sede en Estados Unidos y los datos pueden ser tratados
+        fuera del Espacio Económico Europeo. Cuando sea necesario, las
+        transferencias internacionales de datos estarán protegidas mediante
+        garantías adecuadas, incluidas las Cláusulas Contractuales Tipo de la
+        Comisión Europea.
+      </p>
+
+      <p>
+        <strong>Cookies y tecnologías del sitio web</strong>
+        <br />
+        Actualmente no utilizamos herramientas de análisis, rastreadores
+        publicitarios ni cookies no esenciales en este sitio web.
+        <br />
+        <br />
+        El idioma seleccionado se almacena localmente en tu navegador para
+        recordar tu preferencia de idioma. Esta información permanece en tu
+        dispositivo y no se utiliza para análisis, publicidad, seguimiento ni
+        para crear un perfil de usuario.
+        <br />
+        <br />
+        Si en el futuro incorporamos tecnologías que requieran tu
+        consentimiento, actualizaremos esta Política de Privacidad y
+        solicitaremos tu consentimiento cuando sea necesario.
+      </p>
+
+      <p>
+        <strong>Comunicación por correo electrónico</strong>
+        <br />
+        Utilizamos GMX, un servicio proporcionado por 1&amp;1 Mail &amp; Media
+        GmbH, para nuestras comunicaciones por correo electrónico. Cuando te
+        pones en contacto con nosotros por correo electrónico, la información
+        que nos proporcionas, incluida tu dirección de correo electrónico y el
+        contenido del mensaje, se trata a través de este servicio con el fin de
+        gestionar tu consulta y comunicarnos contigo. GMX almacena los datos de
+        correo electrónico en centros de datos ubicados en Alemania.
+      </p>
+
+      <p>
+        <strong>Comunicación de proyectos y tratamiento mediante IA</strong>
+        <br />
+        Si te pones en contacto con nosotros o nos encargas un proyecto,
+        tratamos la información necesaria para gestionar tu consulta, preparar
+        una oferta, comunicarnos contigo, crear y entregar los contenidos
+        visuales encargados y preparar las facturas.
+        <br />
+        <br />
+        Esto puede incluir imágenes de productos, imágenes de referencia,
+        logotipos, moodboards y otros materiales de briefing que nos
+        proporciones.
+        <br />
+        <br />
+        Los materiales proporcionados por el cliente se utilizan exclusivamente
+        con el fin de crear y entregar el trabajo encargado. Cuando sea
+        necesario para la creación de contenidos visuales asistidos por
+        inteligencia artificial, determinados materiales del proyecto podrán
+        cargarse y tratarse mediante servicios de IA generativa proporcionados
+        por terceros.
+        <br />
+        <br />
+        Por favor, no nos proporciones materiales que no estés autorizado a
+        compartir o permitir que sean tratados para este fin. Si algún material
+        contiene personas identificables, infórmanos previamente para que
+        podamos evaluar si puede ser tratado y de qué manera.
+      </p>
+
+      <div className="legal-block">
+        <p>
+          <strong>Bases jurídicas</strong>
+          <br />
+          Cuando sea aplicable el RGPD, tratamos los datos personales sobre las
+          siguientes bases jurídicas:
+        </p>
+
+        <div className="legal-block-items">
+          <p>
+            <span className="legal-subhead">
+              Contrato y medidas precontractuales (Art. 6(1)(b) RGPD)
+            </span>
+            Para responder a consultas sobre proyectos, preparar ofertas,
+            comunicarnos sobre proyectos potenciales o en curso y prestar
+            nuestros servicios.
+          </p>
+
+          <p>
+            <span className="legal-subhead">
+              Intereses legítimos (Art. 6(1)(f) RGPD)
+            </span>
+            Para operar y proteger nuestro sitio web, mantener los registros
+            técnicos necesarios y comunicarnos de manera eficiente con clientes
+            y potenciales clientes.
+          </p>
+
+          <p>
+            <span className="legal-subhead">
+              Obligaciones legales (Art. 6(1)(c) RGPD)
+            </span>
+            Cuando el tratamiento sea necesario para cumplir las obligaciones
+            legales aplicables a nuestra actividad, incluidas las obligaciones
+            contables, fiscales y de conservación de documentos.
+          </p>
+
+          <p>
+            <span className="legal-subhead">
+              Consentimiento (Art. 6(1)(a) RGPD)
+            </span>
+            Cuando el tratamiento se base en tu consentimiento, podrás
+            retirarlo en cualquier momento con efecto para el futuro. La
+            retirada del consentimiento no afectará a la licitud del
+            tratamiento realizado antes de dicha retirada.
+          </p>
+        </div>
+      </div>
+
+      <p>
+        <strong>Comunicación de datos</strong>
+        <br />
+        No vendemos datos personales.
+        <br />
+        <br />
+        Los datos personales pueden ser tratados por proveedores de servicios
+        necesarios para operar nuestro sitio web, comunicarnos con los
+        clientes, cumplir obligaciones legales y administrativas y llevar a cabo
+        los proyectos encargados. Estos pueden incluir proveedores de servicios
+        de alojamiento, correo electrónico, facturación e IA generativa.
+        <br />
+        <br />
+        Solo compartimos datos personales en la medida necesaria para la
+        finalidad correspondiente y con las garantías de protección de datos
+        adecuadas cuando sean necesarias.
+      </p>
+
+      <p>
+        <strong>Transferencias internacionales de datos</strong>
+        <br />
+        Algunos de los proveedores de servicios externos que utilizamos pueden
+        tratar datos personales fuera del Espacio Económico Europeo (EEE).
+        <br />
+        <br />
+        Cuando se transfieran datos personales internacionalmente, adoptaremos
+        las medidas adecuadas para garantizar el cumplimiento de los requisitos
+        aplicables en materia de protección de datos y la aplicación de las
+        garantías adecuadas cuando sean necesarias.
+      </p>
+
+      <p>
+        <strong>Conservación de los datos</strong>
+        <br />
+        Conservamos los datos personales únicamente durante el tiempo necesario
+        para la finalidad para la que fueron recopilados o durante el período
+        exigido por la legislación aplicable.
+        <br />
+        <br />
+        Los materiales de los proyectos, incluidas las imágenes de productos,
+        imágenes de referencia, logotipos y materiales de briefing, se eliminan
+        normalmente de nuestros propios sistemas y, cuando nos sea posible, de
+        los servicios de IA de terceros utilizados para el proyecto una vez
+        finalizado el trabajo encargado.
+        <br />
+        <br />
+        Si así se acuerda con el cliente, los materiales del proyecto podrán
+        conservarse tanto por nosotros como dentro de las herramientas de IA
+        correspondientes para futuros proyectos y para continuar la
+        colaboración. El cliente podrá solicitar en cualquier momento la
+        eliminación de los materiales conservados, sin perjuicio de las
+        obligaciones legales de conservación aplicables.
+        <br />
+        <br />
+        Los proveedores de servicios externos pueden estar sujetos a sus propios
+        períodos técnicos de conservación, procedimientos de copia de seguridad
+        y prácticas de tratamiento de datos, que pueden seguir siendo aplicables
+        después de la eliminación de los datos de nuestra cuenta activa.
+        <br />
+        <br />
+        Los registros empresariales, contables y de facturación se conservan
+        durante los períodos exigidos por la legislación austriaca aplicable.
+      </p>
+
+      <p>
+        <strong>Tus derechos</strong>
+        <br />
+        En las condiciones previstas por el RGPD, tienes derecho a solicitar el
+        acceso a tus datos personales, su rectificación o eliminación, la
+        limitación del tratamiento, a oponerte a determinados tratamientos y,
+        cuando sea aplicable, a recibir tus datos en un formato portable.
+        <br />
+        <br />
+        Cuando el tratamiento se base en tu consentimiento, podrás retirarlo en
+        cualquier momento con efecto para el futuro.
+        <br />
+        <br />
+        Si consideras que el tratamiento de tus datos personales infringe la
+        legislación aplicable en materia de protección de datos, tienes derecho
+        a presentar una reclamación ante la Autoridad Austriaca de Protección de
+        Datos (Österreichische Datenschutzbehörde) o ante otra autoridad de
+        control competente.
+        <br />
+        <br />
+        Para ejercer tus derechos o realizar cualquier consulta relacionada con
+        el tratamiento de tus datos personales, puedes ponerte en contacto con
+        nosotros en{" "}
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>.
+      </p>
+    </>
+  );
+}
+
 export function Datenschutz() {
   const { lang } = useLanguage();
 
@@ -901,13 +1152,17 @@ export function Datenschutz() {
       ? "Datenschutzerklärung"
       : lang === "it"
         ? "Informativa sulla Privacy"
-        : "Privacy";
+        : lang === "es"
+          ? "Política de Privacidad"
+          : "Privacy";
 
   const body =
     lang === "de" ? (
       <PrivacyNoticeDe />
     ) : lang === "it" ? (
       <PrivacyNoticeIt />
+    ) : lang === "es" ? (
+      <PrivacyNoticeEs />
     ) : (
       <PrivacyNoticeEn />
     );
