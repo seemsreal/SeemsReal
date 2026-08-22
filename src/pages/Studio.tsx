@@ -235,6 +235,14 @@ const work: WorkItem[] = [
     titleKey: "catJewelry",
     metaKey: "metaProduct",
   },
+  {
+    id: "jewelry-5",
+    category: "jewelry",
+    image: "/work/jewelry-05.jpg",
+    aiModel: true,
+    titleKey: "catJewelry",
+    metaKey: "metaEditorial",
+  },
 ];
 
 export default function Studio() {
