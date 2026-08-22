@@ -256,7 +256,10 @@ export default function Studio() {
       <main>
         <section className="studio-intro">
           <p className="studio-label">{t.whatWeDo}</p>
-          <h1>{t.headline}</h1>
+          <h1>
+            <span className="studio-headline-a">{t.headlineLine1}</span>
+            <span className="studio-headline-b">{t.headlineLine2}</span>
+          </h1>
           <p className="studio-lede">{t.lede}</p>
         </section>
 

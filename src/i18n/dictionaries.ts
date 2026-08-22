@@ -14,7 +14,8 @@ export type Dictionary = {
   navOffer: string;
   navContact: string;
   whatWeDo: string;
-  headline: string;
+  headlineLine1: string;
+  headlineLine2: string;
   lede: string;
   selectedWork: string;
   workEmpty: string;
@@ -72,7 +73,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     navOffer: "Offer",
     navContact: "Contact",
     whatWeDo: "What we do",
-    headline: "Big vision. Without the big production.",
+    headlineLine1: "Big vision.",
+    headlineLine2: "Without the big production.",
     lede: "Starting a brand, building a website or expanding your portfolio? We use AI to turn your vision into elevated imagery — without the time, cost or complexity of a traditional photoshoot. Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "New work coming soon.",
@@ -148,7 +150,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     navOffer: "Offer",
     navContact: "Kontakt",
     whatWeDo: "Was wir tun",
-    headline: "Big Vision. Ohne die große Produktion.",
+    headlineLine1: "Big Vision.",
+    headlineLine2: "Ohne die große Produktion.",
     lede: "Brand starten, Website aufbauen oder Portfolio erweitern? Mit AI wird aus deiner Vision starke Imagery — ohne Zeit, Kosten und Komplexität eines klassischen Shootings. Dein Produkt. Deine Vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Neue Arbeiten folgen bald.",
@@ -225,7 +228,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     navOffer: "Offer",
     navContact: "Contact",
     whatWeDo: "Ce que nous faisons",
-    headline: "Big vision. Without the big production.",
+    headlineLine1: "Big vision.",
+    headlineLine2: "Without the big production.",
     lede: "Lancer une marque, créer un site ou développer votre portfolio ? Nous utilisons l’IA pour transformer votre vision en images élevées — sans le temps, le coût ni la complexité d’un shooting traditionnel. Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nouveaux travaux bientôt.",
@@ -302,7 +306,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     navOffer: "Offer",
     navContact: "Contacto",
     whatWeDo: "Qué hacemos",
-    headline: "Big vision. Without the big production.",
+    headlineLine1: "Big vision.",
+    headlineLine2: "Without the big production.",
     lede: "¿Empezar una marca, crear una web o ampliar tu portfolio? Usamos IA para convertir tu visión en imagery elevada — sin el tiempo, coste ni complejidad de un shooting tradicional. Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nuevos trabajos pronto.",
@@ -379,7 +384,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
     navOffer: "Offer",
     navContact: "Contatto",
     whatWeDo: "Cosa facciamo",
-    headline: "Big vision. Without the big production.",
+    headlineLine1: "Big vision.",
+    headlineLine2: "Without the big production.",
     lede: "Lanciare un brand, creare un sito o ampliare il portfolio? Usiamo l’AI per trasformare la tua visione in imagery elevata — senza tempo, costi e complessità di uno shooting tradizionale. Your product. Your vision. Made to seem real.",
     selectedWork: "Selected work",
     workEmpty: "Nuovi lavori in arrivo.",
