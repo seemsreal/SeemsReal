@@ -1538,11 +1538,22 @@ export function Terms() {
       <p>
         <strong>6. Rights in client input</strong>
         <br />
-        You confirm that you own or have all necessary rights in materials you
-        provide (including product photos, logos, designs, moodboards, and
-        reference images), and that you may supply them to us for the project.
-        You are responsible for copyright, personality, trademark, and related
-        rights in your input materials.
+        The Client confirms that they own or have all necessary rights,
+        permissions and authorisations to provide any materials submitted for
+        the project, including product images, photographs, logos, designs,
+        trademarks, moodboards, reference images and other content.
+        <br />
+        <br />
+        The Client grants SEEMS REAL Studio the rights necessary to use,
+        reproduce, adapt and process these materials solely for the purpose of
+        performing the commissioned services, including processing through
+        third-party software and generative AI tools where necessary for the
+        project.
+        <br />
+        <br />
+        The Client is responsible for ensuring that the materials they provide,
+        and their authorised use for the project, do not infringe copyright,
+        trademark, personality, privacy or other third-party rights.
       </p>
 
       <p>
