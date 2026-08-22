@@ -258,6 +258,35 @@ export function Datenschutz() {
       </p>
 
       <p>
+        <strong>Project files and AI processing</strong>
+        <br />
+        Files and materials provided by the client, including product images,
+        reference images, logos and briefing materials, are used solely for the
+        purpose of creating and delivering the commissioned work.
+        <br />
+        <br />
+        During the collaboration, these materials may be stored by us and
+        uploaded to third-party generative AI services where necessary to create
+        the commissioned visuals.
+        <br />
+        <br />
+        Once the project has been completed, we delete the client’s project
+        materials from our own storage and, where available to us, from the
+        third-party AI tools used for the project, unless otherwise agreed with
+        the client.
+        <br />
+        <br />
+        At the client’s request, project materials may be retained by us and
+        within the relevant AI tools for future projects and continued
+        collaboration. The client may request deletion at any time.
+        <br />
+        <br />
+        Third-party services may be subject to their own technical retention
+        periods, backup procedures and data-processing practices, which may
+        continue to apply after deletion from our active account.
+      </p>
+
+      <p>
         <strong>Legal bases</strong>
         <br />
         Where the GDPR applies, we process data based on: performance of a
