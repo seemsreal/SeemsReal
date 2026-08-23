@@ -17,6 +17,10 @@ import {
   aiTransparencyTitles,
   langFromAiTransparencyPath,
 } from "../i18n/aiTransparencyRoutes";
+import {
+  impressumTitles,
+  langFromImpressumPath,
+} from "../i18n/impressumRoutes";
 import LegalLinks from "../components/LegalLinks";
 import "../components/LegalLinks.css";
 import "./Legal.css";
@@ -68,11 +72,11 @@ const impressum = {
   bank: "N26 Bank",
 };
 
-export function Impressum() {
+function ImpressumNoticeEn() {
   const { lang } = useLanguage();
 
   return (
-    <LegalPage title="Imprint">
+    <>
       <p>
         <strong>Legal Disclosure / Imprint</strong>
       </p>
@@ -191,6 +195,160 @@ export function Impressum() {
         </button>{" "}
         pages.
       </p>
+    </>
+  );
+}
+
+function ImpressumNoticeDe() {
+  const { lang } = useLanguage();
+
+  return (
+    <>
+      <p>
+        <strong>Gesetzliche Anbieterkennzeichnung / Impressum</strong>
+      </p>
+
+      <p>
+        <strong>Websiteinhaberin und Herausgeberin</strong>
+        <br />
+        {impressum.name} / {impressum.brand}
+        <br />
+        {impressum.street}
+        <br />
+        {impressum.city}
+        <br />
+        Österreich
+      </p>
+
+      <p>
+        E-Mail:{" "}
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
+      </p>
+
+      <p>
+        <strong>Unternehmensinformationen</strong>
+        <br />
+        Unternehmensform: Einzelunternehmen
+        <br />
+        Mitglied der Wirtschaftskammer Österreich (WKO)
+        <br />
+        Aufsichtsbehörde: Magistrat der Stadt Steyr
+        <br />
+        Anwendbare Rechtsvorschrift: Gewerbeordnung (GewO)
+        <br />
+        Umsatzsteuer-Identifikationsnummer (UID): {impressum.uid}
+      </p>
+
+      <p>
+        <strong>Bankverbindung</strong>
+        <br />
+        Kontoinhaberin: {impressum.name} / {impressum.brand}
+        <br />
+        Bank: {impressum.bank}
+        <br />
+        IBAN: {impressum.iban}
+        <br />
+        SWIFT/BIC: {impressum.bic}
+        <br />
+        <br />
+        Hinweis: Dieses Konto wird ausschließlich für die Zahlungsabwicklung
+        verwendet. Der Unternehmenssitz befindet sich in Österreich.
+      </p>
+
+      <p>
+        <strong>Geschäftsanschrift</strong>
+        <br />
+        {impressum.street}
+        <br />
+        {impressum.city}
+        <br />
+        Österreich
+      </p>
+
+      <p>
+        <strong>Offenlegung gemäß österreichischem Mediengesetz</strong>
+        <br />
+        Medieninhaberin: {impressum.name}
+        <br />
+        Unternehmensgegenstand: Erstellung von KI-gestützten und KI-generierten
+        Markenvisuals und visuellen Inhalten für Unternehmen.
+        <br />
+        Grundlegende Richtung der Website: Präsentation von SEEMS REAL Studio,
+        seinen Dienstleistungen und seinem Portfolio sowie Informationen über
+        KI-gestützte visuelle Produktion.
+      </p>
+
+      <p>
+        <strong>Haftungsausschluss</strong>
+        <br />
+        Alle auf dieser Website veröffentlichten Texte, Bilder, Videos und
+        sonstigen Inhalte sind urheberrechtlich geschützt, sofern nicht anders
+        angegeben. Die Vervielfältigung, Verbreitung, Veröffentlichung oder
+        sonstige Nutzung dieser Inhalte ist nur mit vorheriger schriftlicher
+        Zustimmung des jeweiligen Rechteinhabers gestattet.
+        <br />
+        <br />
+        Trotz sorgfältiger Prüfung der Inhalte dieser Website übernehmen wir
+        keine Verantwortung für die Inhalte externer Websites, auf die von
+        dieser Website verlinkt wird. Für die Inhalte der verlinkten Websites
+        sind ausschließlich deren jeweilige Betreiber verantwortlich.
+      </p>
+
+      <p>
+        <strong>Hinweis zu KI-generierten Inhalten</strong>
+        <br />
+        Die auf dieser Website gezeigten Visuals können KI-generiert oder
+        KI-gestützt sein und werden zu illustrativen, kreativen und
+        Marketingzwecken erstellt. KI-generierte oder KI-gestützte Inhalte
+        werden, soweit erforderlich, entsprechend gekennzeichnet.
+        <br />
+        <br />
+        SEEMS REAL Studio erstellt KI-gestützte und KI-generierte Markenvisuals
+        für Unternehmen. Weitere Informationen über unsere Arbeitsweise, den
+        Einsatz generativer KI sowie die jeweiligen Verantwortlichkeiten von
+        SEEMS REAL Studio und seinen Kunden finden Sie in unseren{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(termsPathFor(lang))}
+        >
+          Allgemeinen Geschäftsbedingungen
+        </button>{" "}
+        und auf unserer Seite zur{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(aiTransparencyPathFor(lang))}
+        >
+          KI-Transparenz
+        </button>
+        .
+      </p>
+    </>
+  );
+}
+
+export function Impressum() {
+  const { lang, setLang } = useLanguage();
+
+  useEffect(() => {
+    const fromPath = langFromImpressumPath(window.location.pathname);
+    if (fromPath && fromPath !== lang) {
+      setLang(fromPath);
+    }
+  }, [setLang, lang]);
+
+  useEffect(() => {
+    document.title = `${impressumTitles[lang]} | SEEMS REAL Studio`;
+    return () => {
+      document.title =
+        "SEEMS REAL Studio | Big Vision. Without the Big Production.";
+    };
+  }, [lang]);
+
+  return (
+    <LegalPage title={impressumTitles[lang]}>
+      {lang === "de" ? <ImpressumNoticeDe /> : <ImpressumNoticeEn />}
     </LegalPage>
   );
 }

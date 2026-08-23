@@ -13,6 +13,10 @@ import {
   isAiTransparencyPath,
   aiTransparencyPathFor,
 } from "./aiTransparencyRoutes";
+import {
+  isImpressumPath,
+  impressumPathFor,
+} from "./impressumRoutes";
 import "./LanguageSwitch.css";
 
 type LanguageSwitchProps = {
@@ -44,6 +48,8 @@ export default function LanguageSwitch({ tone = "light" }: LanguageSwitchProps) 
                 navigate(termsPathFor(item.id));
               } else if (isAiTransparencyPath(window.location.pathname)) {
                 navigate(aiTransparencyPathFor(item.id));
+              } else if (isImpressumPath(window.location.pathname)) {
+                navigate(impressumPathFor(item.id));
               }
             }}
           >

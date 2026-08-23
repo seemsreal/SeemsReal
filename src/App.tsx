@@ -10,6 +10,7 @@ import {
 import { isPrivacyPath } from "./i18n/privacyRoutes";
 import { isTermsPath } from "./i18n/termsRoutes";
 import { isAiTransparencyPath } from "./i18n/aiTransparencyRoutes";
+import { isImpressumPath } from "./i18n/impressumRoutes";
 
 function subscribe(onStoreChange: () => void) {
   window.addEventListener("popstate", onStoreChange);
@@ -27,7 +28,7 @@ export default function App() {
     return <Studio />;
   }
 
-  if (path === "/impressum") {
+  if (isImpressumPath(path)) {
     return <Impressum />;
   }
 
