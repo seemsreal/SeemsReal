@@ -9,6 +9,7 @@ import {
 } from "./pages/Legal";
 import { isPrivacyPath } from "./i18n/privacyRoutes";
 import { isTermsPath } from "./i18n/termsRoutes";
+import { isAiTransparencyPath } from "./i18n/aiTransparencyRoutes";
 
 function subscribe(onStoreChange: () => void) {
   window.addEventListener("popstate", onStoreChange);
@@ -38,7 +39,7 @@ export default function App() {
     return <Terms />;
   }
 
-  if (path === "/ai-transparency") {
+  if (isAiTransparencyPath(path)) {
     return <AiTransparency />;
   }
 

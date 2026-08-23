@@ -9,6 +9,10 @@ import {
   isTermsPath,
   termsPathFor,
 } from "./termsRoutes";
+import {
+  isAiTransparencyPath,
+  aiTransparencyPathFor,
+} from "./aiTransparencyRoutes";
 import "./LanguageSwitch.css";
 
 type LanguageSwitchProps = {
@@ -38,6 +42,8 @@ export default function LanguageSwitch({ tone = "light" }: LanguageSwitchProps) 
                 navigate(privacyPathFor(item.id));
               } else if (isTermsPath(window.location.pathname)) {
                 navigate(termsPathFor(item.id));
+              } else if (isAiTransparencyPath(window.location.pathname)) {
+                navigate(aiTransparencyPathFor(item.id));
               }
             }}
           >

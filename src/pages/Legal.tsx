@@ -12,6 +12,10 @@ import {
   termsPathFor,
   termsTitles,
 } from "../i18n/termsRoutes";
+import {
+  aiTransparencyTitles,
+  langFromAiTransparencyPath,
+} from "../i18n/aiTransparencyRoutes";
 import LegalLinks from "../components/LegalLinks";
 import "../components/LegalLinks.css";
 import "./Legal.css";
@@ -3804,11 +3808,11 @@ export function Terms() {
   return <LegalPage title={termsTitles[lang]}>{body}</LegalPage>;
 }
 
-export function AiTransparency() {
+function AiTransparencyNoticeEn() {
   const { lang } = useLanguage();
 
   return (
-    <LegalPage title="AI Transparency">
+    <>
       <p>
         SEEMS REAL Studio creates brand imagery with generative AI. This page
         explains our working method in plain language.
@@ -3873,6 +3877,113 @@ export function AiTransparency() {
         Email{" "}
         <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
       </p>
+    </>
+  );
+}
+
+function AiTransparencyNoticeDe() {
+  const { lang } = useLanguage();
+
+  return (
+    <>
+      <p>
+        SEEMS REAL Studio erstellt Markenvisuals mithilfe generativer KI. Auf
+        dieser Seite erklären wir unsere Arbeitsweise transparent und
+        verständlich.
+      </p>
+
+      <p>
+        <strong>So arbeiten wir</strong>
+        <br />
+        Wir kombinieren Ihr Briefing, Ihre Produktmaterialien und die gewünschte
+        kreative Richtung mit KI-gestützter Bilderstellung und einer
+        sorgfältigen Überprüfung. Die finalen Inhalte werden als KI-generierte
+        oder KI-gestützte Visuals für die Markenkommunikation erstellt.
+      </p>
+
+      <p>
+        <strong>Was Sie erwarten können</strong>
+        <br />
+        Unsere Visuals werden mit dem Ziel erstellt, hochwertig,
+        kampagnentauglich und passend zu Ihrer Marke zu sein. Da generative
+        KI-Systeme probabilistisch arbeiten, können kleinere Abweichungen,
+        Artefakte oder unbeabsichtigte Ähnlichkeiten auftreten. Die finale
+        Prüfung und Freigabe vor der Veröffentlichung liegt beim Kunden.
+      </p>
+
+      <p>
+        <strong>Ihre Materialien</strong>
+        <br />
+        Produktbilder, Logos, Referenzbilder und andere von Ihnen
+        bereitgestellte Materialien helfen uns dabei, Visuals zu erstellen, die
+        zu Ihrer Marke passen. Sie müssen über die erforderlichen Rechte und
+        Genehmigungen verfügen, um uns diese Materialien für die KI-gestützte
+        Produktion zur Verfügung zu stellen.
+      </p>
+
+      <p>
+        <strong>Transparenz bei der Nutzung</strong>
+        <br />
+        Für KI-generierte oder KI-manipulierte Inhalte können je nach Art des
+        Inhalts sowie dessen Verwendung oder Veröffentlichung
+        Transparenzpflichten nach dem EU AI Act gelten.
+        <br />
+        <br />
+        Nach der Lieferung ist der Kunde dafür verantwortlich zu prüfen und
+        einzuhalten, welche Offenlegungs-, Kennzeichnungs- oder
+        Transparenzpflichten für seine Veröffentlichung oder Verwendung der
+        gelieferten Inhalte gelten. Dies umfasst insbesondere Anforderungen nach
+        geltendem Recht sowie den Richtlinien der jeweiligen Plattformen. SEEMS
+        REAL Studio bleibt für diejenigen Verpflichtungen verantwortlich, die
+        für die eigene Tätigkeit und die eigenen Dienstleistungen gelten.
+        <br />
+        <br />
+        Weitere Einzelheiten finden Sie in unseren{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(termsPathFor(lang))}
+        >
+          Allgemeinen Geschäftsbedingungen
+        </button>
+        .
+      </p>
+
+      <p>
+        <strong>Fragen</strong>
+        <br />
+        E-Mail:{" "}
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
+      </p>
+    </>
+  );
+}
+
+export function AiTransparency() {
+  const { lang, setLang } = useLanguage();
+
+  useEffect(() => {
+    const fromPath = langFromAiTransparencyPath(window.location.pathname);
+    if (fromPath && fromPath !== lang) {
+      setLang(fromPath);
+    }
+  }, [setLang, lang]);
+
+  useEffect(() => {
+    document.title = `${aiTransparencyTitles[lang]} | SEEMS REAL Studio`;
+    return () => {
+      document.title =
+        "SEEMS REAL Studio | Big Vision. Without the Big Production.";
+    };
+  }, [lang]);
+
+  return (
+    <LegalPage title={aiTransparencyTitles[lang]}>
+      {lang === "de" ? (
+        <AiTransparencyNoticeDe />
+      ) : (
+        <AiTransparencyNoticeEn />
+      )}
     </LegalPage>
   );
 }
