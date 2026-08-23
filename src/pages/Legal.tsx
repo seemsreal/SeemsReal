@@ -1873,12 +1873,6 @@ function TermsNoticeEn() {
         <br />
         Any mandatory provisions of applicable law remain unaffected.
       </p>
-
-      <p className="legal-note">
-        Draft terms for website and offers · have an Austrian lawyer or WKO
-        review before launch (WKO agency T&amp;C templates are a useful
-        reference). Not legal advice.
-      </p>
     </>
   );
 }
