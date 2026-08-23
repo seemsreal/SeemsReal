@@ -460,6 +460,141 @@ function ImpressumNoticeIt() {
   );
 }
 
+function ImpressumNoticeEs() {
+  const { lang } = useLanguage();
+
+  return (
+    <>
+      <p>
+        <strong>Información legal / Aviso legal</strong>
+      </p>
+
+      <p>
+        <strong>Titular y responsable del sitio web</strong>
+        <br />
+        {impressum.name} / {impressum.brand}
+        <br />
+        {impressum.street}
+        <br />
+        {impressum.city}
+        <br />
+        {impressum.country}
+      </p>
+
+      <p>
+        Email:{" "}
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
+      </p>
+
+      <p>
+        <strong>Información de la empresa</strong>
+        <br />
+        Forma jurídica: Empresaria individual
+        <br />
+        Miembro de la Cámara Federal de Economía de Austria (WKO)
+        <br />
+        Autoridad de supervisión: Magistrado de la Ciudad de Steyr
+        <br />
+        Normativa aplicable: Ley Austriaca de Actividades Comerciales
+        (Gewerbeordnung – GewO)
+        <br />
+        Número de identificación a efectos del IVA (UID): {impressum.uid}
+      </p>
+
+      <p>
+        <strong>Datos bancarios</strong>
+        <br />
+        Titular de la cuenta: {impressum.name} / {impressum.brand}
+        <br />
+        Banco: {impressum.bank}
+        <br />
+        IBAN: {impressum.iban}
+        <br />
+        SWIFT/BIC: {impressum.bic}
+        <br />
+        <br />
+        Nota: Esta cuenta se utiliza exclusivamente para la gestión de pagos. La
+        sede de la empresa se encuentra en Austria.
+      </p>
+
+      <p>
+        <strong>Dirección comercial</strong>
+        <br />
+        {impressum.street}
+        <br />
+        {impressum.city}
+        <br />
+        {impressum.country}
+      </p>
+
+      <p>
+        <strong>
+          Información conforme a la Ley Austriaca de Medios de Comunicación
+        </strong>
+        <br />
+        Titular del medio: {impressum.name}
+        <br />
+        Objeto de la actividad: Creación de contenidos visuales para marcas,
+        asistidos y generados mediante inteligencia artificial, destinados a
+        empresas.
+        <br />
+        Línea editorial del sitio web: Presentación de SEEMS REAL Studio, sus
+        servicios y su portfolio, así como información sobre la producción de
+        contenidos visuales asistida por inteligencia artificial.
+      </p>
+
+      <p>
+        <strong>Exención de responsabilidad</strong>
+        <br />
+        Todos los textos, imágenes, vídeos y demás contenidos publicados en este
+        sitio web están protegidos por derechos de autor, salvo que se indique
+        lo contrario. La reproducción, distribución, publicación o cualquier
+        otro uso de dichos contenidos solo está permitido con el consentimiento
+        previo y por escrito del respectivo titular de los derechos.
+        <br />
+        <br />
+        A pesar de la cuidadosa revisión de los contenidos de este sitio web, no
+        asumimos responsabilidad alguna por los contenidos de sitios web
+        externos enlazados desde esta página. La responsabilidad sobre los
+        contenidos de los sitios web enlazados corresponde exclusivamente a sus
+        respectivos operadores.
+      </p>
+
+      <p>
+        <strong>Aviso sobre contenidos generados mediante IA</strong>
+        <br />
+        Los contenidos visuales mostrados en este sitio web pueden haber sido
+        generados o asistidos mediante inteligencia artificial y se crean con
+        fines ilustrativos, creativos y de marketing. Los contenidos generados o
+        asistidos mediante IA se identificarán como tales cuando sea necesario.
+        <br />
+        <br />
+        SEEMS REAL Studio crea contenidos visuales para marcas, asistidos y
+        generados mediante inteligencia artificial, destinados a empresas.
+        Encontrará más información sobre nuestro método de trabajo, el uso de
+        inteligencia artificial generativa y las respectivas responsabilidades
+        de SEEMS REAL Studio y sus clientes en nuestros{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(termsPathFor(lang))}
+        >
+          Términos y Condiciones
+        </button>{" "}
+        y en nuestra página de{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(aiTransparencyPathFor(lang))}
+        >
+          Transparencia sobre IA
+        </button>
+        .
+      </p>
+    </>
+  );
+}
+
 export function Impressum() {
   const { lang, setLang } = useLanguage();
 
@@ -483,6 +618,8 @@ export function Impressum() {
       <ImpressumNoticeDe />
     ) : lang === "it" ? (
       <ImpressumNoticeIt />
+    ) : lang === "es" ? (
+      <ImpressumNoticeEs />
     ) : (
       <ImpressumNoticeEn />
     );

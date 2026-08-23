@@ -4,7 +4,7 @@ export const impressumPaths: Record<Lang, string> = {
   en: "/imprint",
   de: "/impressum",
   fr: "/imprint",
-  es: "/imprint",
+  es: "/aviso-legal",
   it: "/note-legali",
 };
 
@@ -12,7 +12,7 @@ export const impressumTitles: Record<Lang, string> = {
   en: "Imprint",
   de: "Impressum",
   fr: "Imprint",
-  es: "Imprint",
+  es: "Aviso Legal",
   it: "Note Legali",
 };
 
