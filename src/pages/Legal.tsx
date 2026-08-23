@@ -13,6 +13,7 @@ import {
   termsTitles,
 } from "../i18n/termsRoutes";
 import {
+  aiTransparencyPathFor,
   aiTransparencyTitles,
   langFromAiTransparencyPath,
 } from "../i18n/aiTransparencyRoutes";
@@ -68,6 +69,8 @@ const impressum = {
 };
 
 export function Impressum() {
+  const { lang } = useLanguage();
+
   return (
     <LegalPage title="Imprint">
       <p>
@@ -103,9 +106,6 @@ export function Impressum() {
         Applicable Law: Austrian Trade Regulation Act (Gewerbeordnung)
         <br />
         VAT Identification Number (UID): {impressum.uid}
-        <br />
-        Company Registration Number: not required for unregistered sole
-        proprietorships
       </p>
 
       <p>
@@ -135,48 +135,61 @@ export function Impressum() {
       </p>
 
       <p>
-        <strong>Disclaimer</strong>
+        <strong>Media Disclosure under the Austrian Media Act</strong>
         <br />
-        All texts, images, videos, and information published on this website are
-        protected by copyright, unless otherwise noted. Any reproduction,
-        distribution, or public display of this content is only permitted with
-        the explicit written consent of the provider.
+        Media Owner: {impressum.name}
         <br />
+        Business Purpose: Creation of AI-assisted and AI-generated brand imagery
+        and visual content for businesses.
         <br />
-        Despite careful content control, we accept no liability for the content
-        of external links. The responsibility for linked pages lies solely with
-        their respective operators. All external content was checked for legal
-        violations at the time of linking, and no illegal content was
-        identifiable.
+        Editorial Policy: Presentation of SEEMS REAL Studio, its services and
+        portfolio, as well as information relating to AI-assisted visual
+        production.
       </p>
 
       <p>
-        <strong>Online Dispute Resolution (ODR)</strong>
+        <strong>Disclaimer</strong>
         <br />
-        The European Commission provides an online platform for resolving
-        consumer disputes out of court:{" "}
-        <a
-          href="https://ec.europa.eu/consumers/odr/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          https://ec.europa.eu/consumers/odr/
-        </a>
-        .
+        All texts, images, videos and other content published on this website
+        are protected by copyright unless otherwise stated. Reproduction,
+        distribution, publication or other use of this content is only permitted
+        with the prior written consent of the respective rights holder.
         <br />
         <br />
-        We are neither obliged nor willing to participate in dispute resolution
-        procedures before a consumer arbitration board.
+        Despite careful review of the content of this website, we assume no
+        responsibility for the content of external websites linked from this
+        website. Responsibility for the content of linked websites lies solely
+        with their respective operators.
       </p>
 
       <p>
         <strong>AI-Generated Content Notice</strong>
         <br />
         Visuals shown on this website may be AI-generated or AI-assisted and are
-        created for illustrative and marketing purposes. Content created with AI
-        is labeled accordingly. SEEMS REAL delivers AI-crafted fashion imagery
-        for brands; project terms and AI transparency details are set out in our
-        Terms and AI Transparency pages.
+        created for illustrative, creative and marketing purposes. AI-generated
+        or AI-assisted content is identified where applicable.
+        <br />
+        <br />
+        SEEMS REAL Studio creates AI-assisted and AI-generated brand imagery for
+        businesses. Further information about our working methods, the use of
+        generative AI and the respective responsibilities of SEEMS REAL Studio
+        and its clients can be found in our{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(termsPathFor(lang))}
+        >
+          Terms &amp; Conditions
+        </button>{" "}
+        and{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(aiTransparencyPathFor(lang))}
+        >
+          AI Transparency
+        </button>{" "}
+        pages.
       </p>
     </LegalPage>
   );
