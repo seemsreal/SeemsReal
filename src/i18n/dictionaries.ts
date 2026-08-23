@@ -394,7 +394,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     imprint: "Aviso legal",
     privacy: "Privacidad",
     terms: "Términos",
-    aiTransparency: "AI Transparency",
+    aiTransparency: "Transparencia IA",
     legalLabel: "Legal",
   },
   it: {
