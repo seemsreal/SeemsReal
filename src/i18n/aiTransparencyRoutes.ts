@@ -5,7 +5,7 @@ export const aiTransparencyPaths: Record<Lang, string> = {
   de: "/ki-transparenz",
   fr: "/ai-transparency",
   es: "/ai-transparency",
-  it: "/ai-transparency",
+  it: "/trasparenza-ia",
 };
 
 export const aiTransparencyTitles: Record<Lang, string> = {
@@ -13,7 +13,7 @@ export const aiTransparencyTitles: Record<Lang, string> = {
   de: "KI-Transparenz",
   fr: "AI Transparency",
   es: "AI Transparency",
-  it: "AI Transparency",
+  it: "Trasparenza sull’IA",
 };
 
 export function isAiTransparencyPath(path: string): boolean {
