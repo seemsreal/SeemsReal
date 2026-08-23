@@ -312,7 +312,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     imprint: "Mentions légales",
     privacy: "Confidentialité",
     terms: "CGV",
-    aiTransparency: "AI Transparency",
+    aiTransparency: "Transparence IA",
     legalLabel: "Legal",
   },
   es: {

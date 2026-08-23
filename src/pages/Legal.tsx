@@ -4117,6 +4117,87 @@ function AiTransparencyNoticeEs() {
   );
 }
 
+function AiTransparencyNoticeFr() {
+  const { lang } = useLanguage();
+
+  return (
+    <>
+      <p>
+        SEEMS REAL Studio crée des contenus visuels pour les marques à l’aide de
+        l’intelligence artificielle générative. Cette page explique notre
+        méthode de travail de manière claire et transparente.
+      </p>
+
+      <p>
+        <strong>Notre méthode de travail</strong>
+        <br />
+        Nous combinons votre brief, les éléments relatifs à vos produits et la
+        direction créative souhaitée avec la génération d’images assistée par IA
+        et une vérification attentive. Les contenus finaux sont créés sous forme
+        de visuels générés ou assistés par IA pour la communication de votre
+        marque.
+      </p>
+
+      <p>
+        <strong>Ce que vous pouvez attendre</strong>
+        <br />
+        Nos visuels sont créés dans le but d’être de haute qualité, adaptés aux
+        campagnes et cohérents avec l’univers de votre marque. Les systèmes
+        d’IA générative étant probabilistes, de légères variations, des
+        artefacts ou des similitudes involontaires peuvent apparaître. La
+        vérification et l’approbation finales avant publication relèvent du
+        Client.
+      </p>
+
+      <p>
+        <strong>Vos éléments</strong>
+        <br />
+        Les images de produits, logos, images de référence et autres éléments
+        que vous nous fournissez nous aident à créer des visuels cohérents avec
+        votre marque. Vous devez disposer des droits et autorisations
+        nécessaires pour nous fournir ces éléments aux fins de la production
+        assistée par IA.
+      </p>
+
+      <p>
+        <strong>Transparence dans l’utilisation</strong>
+        <br />
+        Selon la nature du contenu ainsi que la manière dont il est utilisé ou
+        publié, des obligations de transparence prévues par le règlement
+        européen sur l’intelligence artificielle (EU AI Act) peuvent s’appliquer
+        aux contenus générés ou manipulés par IA.
+        <br />
+        <br />
+        Après la livraison, le Client est responsable de déterminer et de
+        respecter les éventuelles obligations de divulgation, d’identification
+        ou de transparence applicables à la publication ou à l’utilisation des
+        contenus livrés. Cela comprend notamment les exigences prévues par la
+        législation applicable ainsi que les politiques des plateformes
+        concernées. SEEMS REAL Studio reste responsable des obligations
+        applicables à ses propres activités et services.
+        <br />
+        <br />
+        Vous trouverez de plus amples informations dans nos{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(termsPathFor(lang))}
+        >
+          Conditions Générales
+        </button>
+        .
+      </p>
+
+      <p>
+        <strong>Questions</strong>
+        <br />
+        E-mail :{" "}
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
+      </p>
+    </>
+  );
+}
+
 export function AiTransparency() {
   const { lang, setLang } = useLanguage();
 
@@ -4142,6 +4223,8 @@ export function AiTransparency() {
       <AiTransparencyNoticeIt />
     ) : lang === "es" ? (
       <AiTransparencyNoticeEs />
+    ) : lang === "fr" ? (
+      <AiTransparencyNoticeFr />
     ) : (
       <AiTransparencyNoticeEn />
     );

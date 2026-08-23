@@ -3,7 +3,7 @@ import type { Lang } from "./dictionaries";
 export const aiTransparencyPaths: Record<Lang, string> = {
   en: "/ai-transparency",
   de: "/ki-transparenz",
-  fr: "/ai-transparency",
+  fr: "/transparence-ia",
   es: "/transparencia-ia",
   it: "/trasparenza-ia",
 };
@@ -11,7 +11,7 @@ export const aiTransparencyPaths: Record<Lang, string> = {
 export const aiTransparencyTitles: Record<Lang, string> = {
   en: "AI Transparency",
   de: "KI-Transparenz",
-  fr: "AI Transparency",
+  fr: "Transparence sur l’IA",
   es: "Transparencia sobre IA",
   it: "Trasparenza sull’IA",
 };
