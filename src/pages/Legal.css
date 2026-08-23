@@ -120,6 +120,17 @@
   border-bottom: 1px solid rgba(245, 240, 232, 0.28);
 }
 
+.legal-inline-link {
+  display: inline;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid rgba(245, 240, 232, 0.28);
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
 .legal-note {
   margin-top: 0.5rem;
   font-family: var(--font-display) !important;

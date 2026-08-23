@@ -9,6 +9,7 @@ import {
 } from "../i18n/privacyRoutes";
 import {
   langFromTermsPath,
+  termsPathFor,
   termsTitles,
 } from "../i18n/termsRoutes";
 import LegalLinks from "../components/LegalLinks";
@@ -3804,58 +3805,73 @@ export function Terms() {
 }
 
 export function AiTransparency() {
+  const { lang } = useLanguage();
+
   return (
     <LegalPage title="AI Transparency">
       <p>
-        SEEMS REAL creates brand imagery with generative AI. This page explains
-        our working method in plain language.
+        SEEMS REAL Studio creates brand imagery with generative AI. This page
+        explains our working method in plain language.
       </p>
 
       <p>
         <strong>How we work</strong>
         <br />
-        We combine your brief, product materials, and creative direction with
-        AI-assisted image generation and careful review. Deliverables are created
-        as AI-generated or AI-assisted visuals for digital brand use.
+        We combine your brief, product materials and creative direction with
+        AI-assisted image generation and careful review. Deliverables are
+        created as AI-generated or AI-assisted visuals for brand communication.
       </p>
 
       <p>
         <strong>What you should expect</strong>
         <br />
         Results are designed to feel campaign-ready and on-brand. Because
-        generative systems are probabilistic, small deviations, artefacts, or
-        unexpected similarities can occur. Final approval before publication
-        remains with you.
+        generative AI systems are probabilistic, small deviations, artefacts or
+        unexpected similarities may occur. Final approval before publication
+        remains with the Client.
       </p>
 
       <p>
         <strong>Your materials</strong>
         <br />
-        Product photos, logos, and references you provide help us stay close to
-        your brand. You must have the rights to share those materials with us
-        for production.
+        Product photos, logos, reference images and other materials you provide
+        help us create visuals aligned with your brand. You must have the
+        necessary rights and permissions to provide these materials to us for
+        AI-assisted production.
       </p>
 
       <p>
         <strong>Transparency in use</strong>
         <br />
-        EU AI Act transparency rules (Article 50) apply as of 2 August 2026.
-        Whether a specific disclosure is required depends on the content and how
-        it is published. Responsibility for required labeling in your channels
-        sits with you as the brand using the assets. More detail is set out in
-        our Terms.
+        Transparency requirements under the EU AI Act may apply to AI-generated
+        or AI-manipulated content depending on the nature of the content and how
+        it is used or published.
+        <br />
+        <br />
+        Following delivery, the Client is responsible for determining and
+        complying with any disclosure, labeling or transparency requirements
+        applicable to the Client’s publication or use of the deliverables,
+        including applicable law and platform policies. SEEMS REAL Studio
+        remains responsible for obligations applicable to its own activities and
+        services.
+        <br />
+        <br />
+        Further details are set out in our{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(termsPathFor(lang))}
+        >
+          Terms &amp; Conditions
+        </button>
+        .
       </p>
 
       <p>
         <strong>Questions</strong>
         <br />
         Email{" "}
-        <a href="mailto:seemsreal.studio@gmx.at">seemsreal.studio@gmx.at</a>.
-      </p>
-
-      <p className="legal-note">
-        Plain-language transparency page · align with final Terms after legal
-        review. Not legal advice.
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
       </p>
     </LegalPage>
   );
