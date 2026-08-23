@@ -3,7 +3,7 @@ import type { Lang } from "./dictionaries";
 export const impressumPaths: Record<Lang, string> = {
   en: "/imprint",
   de: "/impressum",
-  fr: "/imprint",
+  fr: "/mentions-legales",
   es: "/aviso-legal",
   it: "/note-legali",
 };
@@ -11,7 +11,7 @@ export const impressumPaths: Record<Lang, string> = {
 export const impressumTitles: Record<Lang, string> = {
   en: "Imprint",
   de: "Impressum",
-  fr: "Imprint",
+  fr: "Mentions légales",
   es: "Aviso Legal",
   it: "Note Legali",
 };
