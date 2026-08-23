@@ -328,6 +328,138 @@ function ImpressumNoticeDe() {
   );
 }
 
+function ImpressumNoticeIt() {
+  const { lang } = useLanguage();
+
+  return (
+    <>
+      <p>
+        <strong>Informazioni legali / Note legali</strong>
+      </p>
+
+      <p>
+        <strong>Titolare e responsabile del sito web</strong>
+        <br />
+        {impressum.name} / {impressum.brand}
+        <br />
+        {impressum.street}
+        <br />
+        {impressum.city}
+        <br />
+        {impressum.country}
+      </p>
+
+      <p>
+        Email:{" "}
+        <a href={`mailto:${impressum.email}`}>{impressum.email}</a>
+      </p>
+
+      <p>
+        <strong>Informazioni sull’attività</strong>
+        <br />
+        Forma giuridica: Impresa individuale
+        <br />
+        Membro della Camera dell’Economia Austriaca (WKO)
+        <br />
+        Autorità di vigilanza: Magistrato della Città di Steyr
+        <br />
+        Normativa applicabile: Codice austriaco delle attività commerciali
+        (Gewerbeordnung – GewO)
+        <br />
+        Partita IVA (UID): {impressum.uid}
+      </p>
+
+      <p>
+        <strong>Dati bancari</strong>
+        <br />
+        Intestataria del conto: {impressum.name} / {impressum.brand}
+        <br />
+        Banca: {impressum.bank}
+        <br />
+        IBAN: {impressum.iban}
+        <br />
+        SWIFT/BIC: {impressum.bic}
+        <br />
+        <br />
+        Nota: questo conto viene utilizzato esclusivamente per l’elaborazione
+        dei pagamenti. La sede dell’attività si trova in Austria.
+      </p>
+
+      <p>
+        <strong>Sede dell’attività</strong>
+        <br />
+        {impressum.street}
+        <br />
+        {impressum.city}
+        <br />
+        {impressum.country}
+      </p>
+
+      <p>
+        <strong>Informativa ai sensi della legge austriaca sui media</strong>
+        <br />
+        Titolare del mezzo di comunicazione: {impressum.name}
+        <br />
+        Oggetto dell’attività: Creazione di contenuti visivi per brand, assistiti
+        e generati mediante intelligenza artificiale, destinati alle imprese.
+        <br />
+        Linea editoriale del sito web: Presentazione di SEEMS REAL Studio, dei
+        suoi servizi e del suo portfolio, nonché informazioni sulla produzione
+        di contenuti visivi assistita dall’intelligenza artificiale.
+      </p>
+
+      <p>
+        <strong>Esclusione di responsabilità</strong>
+        <br />
+        Tutti i testi, le immagini, i video e gli altri contenuti pubblicati su
+        questo sito web sono protetti dal diritto d’autore, salvo diversa
+        indicazione. La riproduzione, distribuzione, pubblicazione o qualsiasi
+        altro utilizzo di tali contenuti è consentito esclusivamente previa
+        autorizzazione scritta del rispettivo titolare dei diritti.
+        <br />
+        <br />
+        Nonostante l’attenta verifica dei contenuti di questo sito web, non ci
+        assumiamo alcuna responsabilità per i contenuti di siti web esterni
+        collegati tramite link. La responsabilità per i contenuti dei siti web
+        collegati ricade esclusivamente sui rispettivi gestori.
+      </p>
+
+      <p>
+        <strong>Avviso sui contenuti generati mediante IA</strong>
+        <br />
+        I contenuti visivi mostrati su questo sito web possono essere generati o
+        assistiti mediante intelligenza artificiale e sono creati per finalità
+        illustrative, creative e di marketing. I contenuti generati o assistiti
+        mediante IA vengono identificati come tali ove richiesto.
+        <br />
+        <br />
+        SEEMS REAL Studio crea contenuti visivi per brand, assistiti e generati
+        mediante intelligenza artificiale, destinati alle imprese. Ulteriori
+        informazioni sul nostro metodo di lavoro, sull’utilizzo
+        dell’intelligenza artificiale generativa e sulle rispettive
+        responsabilità di SEEMS REAL Studio e dei suoi clienti sono disponibili
+        nei nostri{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(termsPathFor(lang))}
+        >
+          Termini e Condizioni
+        </button>{" "}
+        e nella pagina dedicata alla{" "}
+        <button
+          type="button"
+          className="legal-inline-link"
+          onClick={() => navigate(aiTransparencyPathFor(lang))}
+        >
+          Trasparenza sull’IA
+        </button>
+        .
+      </p>
+    </>
+  );
+}
+
 export function Impressum() {
   const { lang, setLang } = useLanguage();
 
@@ -346,11 +478,16 @@ export function Impressum() {
     };
   }, [lang]);
 
-  return (
-    <LegalPage title={impressumTitles[lang]}>
-      {lang === "de" ? <ImpressumNoticeDe /> : <ImpressumNoticeEn />}
-    </LegalPage>
-  );
+  const body =
+    lang === "de" ? (
+      <ImpressumNoticeDe />
+    ) : lang === "it" ? (
+      <ImpressumNoticeIt />
+    ) : (
+      <ImpressumNoticeEn />
+    );
+
+  return <LegalPage title={impressumTitles[lang]}>{body}</LegalPage>;
 }
 
 function PrivacyNoticeEn() {

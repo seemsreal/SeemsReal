@@ -5,7 +5,7 @@ export const impressumPaths: Record<Lang, string> = {
   de: "/impressum",
   fr: "/imprint",
   es: "/imprint",
-  it: "/imprint",
+  it: "/note-legali",
 };
 
 export const impressumTitles: Record<Lang, string> = {
@@ -13,7 +13,7 @@ export const impressumTitles: Record<Lang, string> = {
   de: "Impressum",
   fr: "Imprint",
   es: "Imprint",
-  it: "Imprint",
+  it: "Note Legali",
 };
 
 export function isImpressumPath(path: string): boolean {
