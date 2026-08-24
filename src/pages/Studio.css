@@ -129,6 +129,25 @@
   margin-top: 0.85em;
 }
 
+.studio-instagram {
+  display: inline-flex;
+  margin-top: 2rem;
+  padding: 0.35rem;
+  opacity: 0.45;
+  color: var(--ink);
+  transition: opacity 0.25s ease;
+}
+
+.studio-instagram svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  display: block;
+}
+
+.studio-instagram:hover {
+  opacity: 1;
+}
+
 @media (min-width: 901px) {
   .studio-intro h1 {
     max-width: none;

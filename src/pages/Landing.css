@@ -75,6 +75,27 @@
   letter-spacing: 0.38em;
 }
 
+.landing-instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.75rem;
+  padding: 0.65rem;
+  color: var(--ink);
+  opacity: 0.7;
+  transition: opacity 0.25s ease;
+}
+
+.landing-instagram:hover {
+  opacity: 1;
+}
+
+.landing-instagram svg {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .landing-legal {
   position: absolute;
   left: 0;
