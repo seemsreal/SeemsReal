@@ -1,6 +1,5 @@
 import { useSyncExternalStore } from "react";
 import Landing from "./pages/Landing";
-import Studio from "./pages/Studio";
 import {
   AiTransparency,
   Datenschutz,
@@ -24,10 +23,7 @@ function getPath() {
 export default function App() {
   const path = useSyncExternalStore(subscribe, getPath, () => "/");
 
-  if (path === "/studio") {
-    return <Studio />;
-  }
-
+  // Site temporarily down — only Coming Soon + required legal pages.
   if (isImpressumPath(path)) {
     return <Impressum />;
   }
