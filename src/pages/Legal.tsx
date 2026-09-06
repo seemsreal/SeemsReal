@@ -743,7 +743,7 @@ export function Impressum() {
     document.title = `${impressumTitles[lang]} | SEEMS REAL Studio`;
     return () => {
       document.title =
-        "SEEMS REAL Studio | Big Vision. Without the Big Production.";
+        "SEEMS REAL Studio | Große Vision. Ohne große Produktion.";
     };
   }, [lang]);
 
@@ -2009,7 +2009,7 @@ export function Datenschutz() {
     document.title = `${pageTitle} | SEEMS REAL Studio`;
     return () => {
       document.title =
-        "SEEMS REAL Studio | Big Vision. Without the Big Production.";
+        "SEEMS REAL Studio | Große Vision. Ohne große Produktion.";
     };
   }, [lang]);
 
@@ -4363,7 +4363,7 @@ export function Terms() {
     document.title = `${termsTitles[lang]} | SEEMS REAL Studio`;
     return () => {
       document.title =
-        "SEEMS REAL Studio | Big Vision. Without the Big Production.";
+        "SEEMS REAL Studio | Große Vision. Ohne große Produktion.";
     };
   }, [lang]);
 
@@ -4787,7 +4787,7 @@ export function AiTransparency() {
     document.title = `${aiTransparencyTitles[lang]} | SEEMS REAL Studio`;
     return () => {
       document.title =
-        "SEEMS REAL Studio | Big Vision. Without the Big Production.";
+        "SEEMS REAL Studio | Große Vision. Ohne große Produktion.";
     };
   }, [lang]);
 

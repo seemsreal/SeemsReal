@@ -1,8 +1,8 @@
 export type Lang = "en" | "de" | "fr" | "es" | "it";
 
 export const languages: { id: Lang; label: string }[] = [
-  { id: "en", label: "EN" },
   { id: "de", label: "DE" },
+  { id: "en", label: "EN" },
   { id: "fr", label: "FR" },
   { id: "es", label: "ES" },
   { id: "it", label: "IT" },
