@@ -214,7 +214,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     pkg3Lead: "Ganz nach deiner Vision.",
     pkg3Body:
       "Jede Marke ist einzigartig. Deshalb entwickeln wir ein individuelles Paket, abgestimmt auf deine Produkte, deine Ästhetik, deine kreative Vision und deinen Content Bedarf.\n\nVon einzelnen Konzepten bis hin zu umfangreichen Kampagnen kreieren wir genau das, was zu deiner Marke und deinem digitalen Auftritt passt.",
-    pkg3Cta: "Lass uns ein kostenloses Call machen und gemeinsam etwas schaffen →",
+    pkg3Cta: "Erzähl uns von deiner Vision. Lass uns gemeinsam etwas Besonderes schaffen →",
     process: "Der Ablauf",
     processKicker: "Was wir von dir brauchen",
     processTitle: "Zeig uns deine Vision.",
@@ -231,7 +231,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     privacy: "Datenschutz",
     terms: "AGB",
     aiTransparency: "KI-Transparenz",
-    legalLabel: "Legal",
+    legalLabel: "Rechtliches",
   },
   fr: {
     landingCta: "What we do",
