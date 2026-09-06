@@ -1,11 +1,15 @@
+import { navigate } from "../nav";
 import LanguageSwitch from "../i18n/LanguageSwitch";
+import { useLanguage } from "../i18n/LanguageContext";
 import LegalLinks from "../components/LegalLinks";
 import "../components/LegalLinks.css";
 import "./Landing.css";
 
 const INSTAGRAM_URL = "https://www.instagram.com/seemsreal.studio/";
 
-export default function Landing() {
+export default function Landing({ hasAccess = false }: { hasAccess?: boolean }) {
+  const { t } = useLanguage();
+
   return (
     <div className="landing">
       <div className="landing-lang">
@@ -15,7 +19,17 @@ export default function Landing() {
       <section className="landing-hero" aria-label="SEEMS REAL Studio">
         <h1 className="landing-brand">SEEMS REAL</h1>
         <p className="landing-sub">Studio</p>
-        <p className="landing-soon">Coming Soon</p>
+        {hasAccess ? (
+          <button
+            type="button"
+            className="landing-enter"
+            onClick={() => navigate("/studio")}
+          >
+            {t.landingCta}
+          </button>
+        ) : (
+          <p className="landing-soon">Coming Soon</p>
+        )}
         <a
           className="landing-instagram"
           href={INSTAGRAM_URL}
