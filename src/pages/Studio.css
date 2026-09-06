@@ -66,6 +66,23 @@
   padding: clamp(4rem, 10vw, 7rem) clamp(1.25rem, 4vw, 3rem);
 }
 
+.studio-intro {
+  padding-bottom: clamp(0.75rem, 2vw, 1.25rem);
+}
+
+.studio-work {
+  padding-top: clamp(1.15rem, 2.8vw, 1.75rem);
+  padding-bottom: clamp(1.15rem, 2.8vw, 1.75rem);
+}
+
+.studio-offer {
+  padding-top: clamp(1.15rem, 2.8vw, 1.75rem);
+}
+
+.studio-offer > .studio-label {
+  margin-bottom: 1.1rem;
+}
+
 .studio-work,
 .studio-offer,
 .studio-process,
