@@ -152,7 +152,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     legalLabel: "Legal",
   },
   de: {
-    landingCta: "What we do",
+    landingCta: "Was wir tun",
     navWork: "Work",
     navOffer: "Offer",
     navContact: "Kontakt",
