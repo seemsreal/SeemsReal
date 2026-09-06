@@ -2134,6 +2134,13 @@ function TermsNoticeEn() {
         trademarks, moodboards, reference images and other content.
         <br />
         <br />
+        In particular, the Client warrants that any product images submitted
+        are the Client’s own intellectual property, or that the Client holds
+        all rights required to use them. Product images must not be taken from
+        the internet or from any other third-party source in which the Client
+        has no rights.
+        <br />
+        <br />
         The Client grants SEEMS REAL Studio the rights necessary to use,
         reproduce, adapt and process these materials solely for the purpose of
         performing the commissioned services, including processing through
@@ -2573,6 +2580,13 @@ function TermsNoticeDe() {
         bereitgestellten Materialien zur Verfügung zu stellen. Dazu zählen
         insbesondere Produktbilder, Fotografien, Logos, Designs, Marken,
         Moodboards, Referenzbilder und sonstige Inhalte.
+        <br />
+        <br />
+        Insbesondere verpflichtet sich der Kunde, dass übermittelte
+        Produktbilder sein eigenes geistiges Eigentum sind oder er
+        uneingeschränkt über die erforderlichen Rechte daran verfügt.
+        Produktbilder dürfen nicht aus dem Internet oder aus sonstigen Quellen
+        Dritter stammen, an denen der Kunde keine Rechte hat.
         <br />
         <br />
         Der Kunde räumt SEEMS REAL Studio die für die Durchführung der
@@ -3047,6 +3061,13 @@ function TermsNoticeIt() {
         marchi, moodboard, immagini di riferimento e altri contenuti.
         <br />
         <br />
+        In particolare, il Cliente si impegna a garantire che le immagini di
+        prodotto inviate siano di sua proprietà intellettuale o che egli
+        disponga pienamente dei diritti necessari per utilizzarle. Le immagini
+        di prodotto non devono provenire da internet o da altre fonti di terzi
+        su cui il Cliente non ha diritti.
+        <br />
+        <br />
         Il Cliente concede a SEEMS REAL Studio i diritti necessari per
         utilizzare, riprodurre, adattare e trattare tali materiali
         esclusivamente allo scopo di fornire i servizi commissionati. Ciò
@@ -3515,6 +3536,13 @@ function TermsNoticeEs() {
         para el proyecto, incluidas imágenes de productos, fotografías,
         logotipos, diseños, marcas, moodboards, imágenes de referencia y otros
         contenidos.
+        <br />
+        <br />
+        En particular, el Cliente se compromete a que las imágenes de producto
+        enviadas sean de su propia propiedad intelectual o a que disponga
+        plenamente de los derechos necesarios para usarlas. Las imágenes de
+        producto no deben proceder de internet ni de otras fuentes de terceros
+        sobre las que el Cliente no tenga derechos.
         <br />
         <br />
         El Cliente concede a SEEMS REAL Studio los derechos necesarios para
@@ -3989,6 +4017,13 @@ function TermsNoticeFr() {
         transmis dans le cadre du projet, notamment les images de produits,
         photographies, logos, designs, marques, moodboards, images de référence
         et autres contenus.
+        <br />
+        <br />
+        En particulier, le Client s’engage à ce que les images de produits
+        transmises soient sa propre propriété intellectuelle ou à ce qu’il
+        dispose pleinement des droits nécessaires pour les utiliser. Les images
+        de produits ne doivent pas provenir d’internet ni d’autres sources
+        tierces sur lesquelles le Client n’a aucun droit.
         <br />
         <br />
         Le Client accorde à SEEMS REAL Studio les droits nécessaires pour
