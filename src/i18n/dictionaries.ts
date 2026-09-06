@@ -101,7 +101,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     offer: "Offer",
     pkg1Num: "Package 01",
     pkg1Title: "The Edit",
-    pkg1Price: "€150",
+    pkg1Price: "€300",
     pkg1Lead:
       "A curated first step to get to know each other and explore what we can create together.",
     pkg1Body:
@@ -115,7 +115,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ],
     pkg2Num: "Package 02",
     pkg2Title: "The Campaign",
-    pkg2Price: "€650",
+    pkg2Price: "€1500",
     pkg2Lead: "A complete visual world, thoughtfully created around your brand.",
     pkg2Body:
       "Twenty bespoke visuals designed to bring your products to life across multiple settings and digital formats. A cohesive visual world for your digital presence.",
@@ -183,7 +183,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     offer: "Offer",
     pkg1Num: "Package 01",
     pkg1Title: "The Edit",
-    pkg1Price: "€150",
+    pkg1Price: "€300",
     pkg1Lead:
       "Ein sorgfältig kuratierter erster Schritt, um uns kennenzulernen und gemeinsam zu entdecken, was wir für deine Marke kreieren können.",
     pkg1Body:
@@ -197,7 +197,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ],
     pkg2Num: "Package 02",
     pkg2Title: "The Campaign",
-    pkg2Price: "€650",
+    pkg2Price: "€1500",
     pkg2Lead: "Eine vollständige Bildwelt, mit viel Feingefühl rund um deine Marke entwickelt.",
     pkg2Body:
       "Zwanzig individuelle Visuals, die deine Produkte in unterschiedlichen Settings und digitalen Formaten zum Leben erwecken. Eine stimmige visuelle Welt für deinen gesamten digitalen Auftritt.",
@@ -265,7 +265,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     offer: "Offer",
     pkg1Num: "Package 01",
     pkg1Title: "The Edit",
-    pkg1Price: "€150",
+    pkg1Price: "€300",
     pkg1Lead:
       "Une première étape soignée pour faire connaissance et explorer ce que nous pouvons créer ensemble.",
     pkg1Body:
@@ -279,7 +279,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ],
     pkg2Num: "Package 02",
     pkg2Title: "The Campaign",
-    pkg2Price: "€650",
+    pkg2Price: "€1500",
     pkg2Lead: "Un univers visuel complet, pensé autour de votre marque.",
     pkg2Body:
       "Vingt visuels sur mesure pour faire vivre vos produits à travers plusieurs décors et formats digitaux. Une présence visuelle cohérente.",
@@ -347,7 +347,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     offer: "Offer",
     pkg1Num: "Package 01",
     pkg1Title: "The Edit",
-    pkg1Price: "€150",
+    pkg1Price: "€300",
     pkg1Lead:
       "Un primer paso curado para conocernos y explorar qué podemos crear juntos.",
     pkg1Body:
@@ -361,7 +361,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ],
     pkg2Num: "Package 02",
     pkg2Title: "The Campaign",
-    pkg2Price: "€650",
+    pkg2Price: "€1500",
     pkg2Lead: "Un mundo visual completo, pensado en torno a tu marca.",
     pkg2Body:
       "Veinte visuales a medida para dar vida a tus productos en múltiples escenarios y formatos digitales. Una presencia visual coherente.",
@@ -429,7 +429,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     offer: "Offer",
     pkg1Num: "Package 01",
     pkg1Title: "The Edit",
-    pkg1Price: "€150",
+    pkg1Price: "€300",
     pkg1Lead:
       "Un primo passo curato per conoscerci ed esplorare cosa possiamo creare insieme.",
     pkg1Body:
@@ -443,7 +443,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
     ],
     pkg2Num: "Package 02",
     pkg2Title: "The Campaign",
-    pkg2Price: "€650",
+    pkg2Price: "€1500",
     pkg2Lead: "Un mondo visuale completo, pensato intorno al tuo brand.",
     pkg2Body:
       "Venti visual su misura per dare vita ai tuoi prodotti attraverso setting e formati digitali. Una presenza visuale coerente.",
