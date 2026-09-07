@@ -7,7 +7,7 @@ import "./Landing.css";
 
 const INSTAGRAM_URL = "https://www.instagram.com/seemsreal.studio/";
 
-export default function Landing({ hasAccess = false }: { hasAccess?: boolean }) {
+export default function Landing() {
   const { t } = useLanguage();
 
   return (
@@ -19,17 +19,13 @@ export default function Landing({ hasAccess = false }: { hasAccess?: boolean }) 
       <section className="landing-hero" aria-label="SEEMS REAL Studio">
         <h1 className="landing-brand">SEEMS REAL</h1>
         <p className="landing-sub">Studio</p>
-        {hasAccess ? (
-          <button
-            type="button"
-            className="landing-enter"
-            onClick={() => navigate("/studio")}
-          >
-            {t.landingCta}
-          </button>
-        ) : (
-          <p className="landing-soon">Coming Soon</p>
-        )}
+        <button
+          type="button"
+          className="landing-enter"
+          onClick={() => navigate("/studio")}
+        >
+          {t.landingCta}
+        </button>
         <a
           className="landing-instagram"
           href={INSTAGRAM_URL}

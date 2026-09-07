@@ -1,4 +1,4 @@
-import { useEffect, useState, useSyncExternalStore } from "react";
+import { useSyncExternalStore } from "react";
 import Landing from "./pages/Landing";
 import Studio from "./pages/Studio";
 import {
@@ -11,11 +11,6 @@ import { isPrivacyPath } from "./i18n/privacyRoutes";
 import { isTermsPath } from "./i18n/termsRoutes";
 import { isAiTransparencyPath } from "./i18n/aiTransparencyRoutes";
 import { isImpressumPath } from "./i18n/impressumRoutes";
-import {
-  applyPreviewFromUrl,
-  hasPreviewAccess,
-  PREVIEW_KEY,
-} from "./preview";
 
 function subscribe(onStoreChange: () => void) {
   window.addEventListener("popstate", onStoreChange);
@@ -28,11 +23,10 @@ function getPath() {
 
 export default function App() {
   const path = useSyncExternalStore(subscribe, getPath, () => "/");
-  const [unlocked, setUnlocked] = useState(hasPreviewAccess);
 
-  useEffect(() => {
-    setUnlocked(applyPreviewFromUrl());
-  }, [path]);
+  if (path === "/studio") {
+    return <Studio />;
+  }
 
   if (isImpressumPath(path)) {
     return <Impressum />;
@@ -50,12 +44,5 @@ export default function App() {
     return <AiTransparency />;
   }
 
-  const previewQuery =
-    new URLSearchParams(window.location.search).get("preview") === PREVIEW_KEY;
-
-  if (unlocked && (path === "/studio" || previewQuery)) {
-    return <Studio />;
-  }
-
-  return <Landing hasAccess={unlocked} />;
+  return <Landing />;
 }
