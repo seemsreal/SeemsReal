@@ -67,6 +67,7 @@ const impressum = {
   country: "Austria",
   email: "seemsreal.studio@gmx.at",
   uid: "ATU81997617",
+  gisa: "40102078",
   iban: "DE84 1001 1001 2087 3083 22",
   bic: "NTSBDEB1XXX",
   bank: "N26 Bank",
@@ -108,6 +109,8 @@ function ImpressumNoticeEn() {
         Supervisory Authority: Magistrate of the City of Steyr
         <br />
         Applicable Law: Austrian Trade Regulation Act (Gewerbeordnung)
+        <br />
+        GISA number: {impressum.gisa}
         <br />
         VAT Identification Number (UID): {impressum.uid}
       </p>
@@ -235,6 +238,8 @@ function ImpressumNoticeDe() {
         Aufsichtsbehörde: Magistrat der Stadt Steyr
         <br />
         Anwendbare Rechtsvorschrift: Gewerbeordnung (GewO)
+        <br />
+        GISA-Zahl: {impressum.gisa}
         <br />
         Umsatzsteuer-Identifikationsnummer (UID): {impressum.uid}
       </p>
@@ -365,6 +370,8 @@ function ImpressumNoticeIt() {
         <br />
         Normativa applicabile: Codice austriaco delle attività commerciali
         (Gewerbeordnung – GewO)
+        <br />
+        Numero GISA: {impressum.gisa}
         <br />
         Partita IVA (UID): {impressum.uid}
       </p>
@@ -497,6 +504,8 @@ function ImpressumNoticeEs() {
         <br />
         Normativa aplicable: Ley Austriaca de Actividades Comerciales
         (Gewerbeordnung – GewO)
+        <br />
+        Número GISA: {impressum.gisa}
         <br />
         Número de identificación a efectos del IVA (UID): {impressum.uid}
       </p>
@@ -632,6 +641,8 @@ function ImpressumNoticeFr() {
         <br />
         Législation applicable : Code autrichien des activités commerciales
         (Gewerbeordnung – GewO)
+        <br />
+        Numéro GISA : {impressum.gisa}
         <br />
         Numéro d’identification à la TVA (UID) : {impressum.uid}
       </p>
