@@ -108,8 +108,9 @@ const work: WorkItem[] = [
   {
     id: "fashion-16",
     category: "fashion",
-    image: "/work/fashion-16.jpg",
+    image: "/work/fashion-16.jpg?v=2",
     campaign: "yellow-gown",
+    teaser: true,
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -137,7 +138,6 @@ const work: WorkItem[] = [
     category: "fashion",
     image: "/work/fashion-13.jpg",
     campaign: "menswear",
-    teaser: true,
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
