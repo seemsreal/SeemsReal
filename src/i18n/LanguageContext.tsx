@@ -19,6 +19,9 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 const STORAGE_KEY = "seemsreal-lang";
 
 function readStoredLang(): Lang {
+  if (/instagram\.com/i.test(document.referrer)) {
+    return "de";
+  }
   const stored = window.localStorage.getItem(STORAGE_KEY);
   if (
     stored === "en" ||

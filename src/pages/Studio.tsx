@@ -262,7 +262,7 @@ const work: WorkItem[] = [
 ];
 
 export default function Studio() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const [category, setCategory] = useState<CategoryId>("all");
 
   const visible =
@@ -309,7 +309,7 @@ export default function Studio() {
           </p>
           <a
             className="studio-instagram"
-            href="https://www.instagram.com/seemsreal.studio/"
+            href={`https://www.instagram.com/seemsreal.studio/?hl=${lang}`}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"

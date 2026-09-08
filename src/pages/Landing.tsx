@@ -5,10 +5,8 @@ import LegalLinks from "../components/LegalLinks";
 import "../components/LegalLinks.css";
 import "./Landing.css";
 
-const INSTAGRAM_URL = "https://www.instagram.com/seemsreal.studio/";
-
 export default function Landing() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
 
   return (
     <div className="landing">
@@ -28,7 +26,7 @@ export default function Landing() {
         </button>
         <a
           className="landing-instagram"
-          href={INSTAGRAM_URL}
+          href={`https://www.instagram.com/seemsreal.studio/?hl=${lang}`}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
