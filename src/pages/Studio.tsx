@@ -15,6 +15,7 @@ type WorkItem = {
   image: string;
   campaign?: string;
   teaser?: boolean;
+  overviewImage?: string;
   aiModel?: boolean;
   titleKey: "catSwimwear" | "catBeauty" | "catJewelry" | "catFashion";
   metaKey: "metaFilm" | "metaIoni" | "metaEditorial" | "metaProduct" | "metaAi" | "metaStillLife";
@@ -110,7 +111,6 @@ const work: WorkItem[] = [
     category: "fashion",
     image: "/work/fashion-16.jpg?v=2",
     campaign: "yellow-gown",
-    teaser: true,
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -138,6 +138,7 @@ const work: WorkItem[] = [
     category: "fashion",
     image: "/work/fashion-13.jpg",
     campaign: "menswear",
+    teaser: true,
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -284,6 +285,7 @@ const work: WorkItem[] = [
     id: "beauty-1",
     category: "beauty",
     image: "/work/verdelie-jar.png",
+    overviewImage: "/work/fashion-16.jpg?v=2",
     aiModel: true,
     titleKey: "catBeauty",
     metaKey: "metaProduct",
@@ -511,7 +513,10 @@ export default function Studio() {
                       aria-label={t[item.titleKey]}
                     >
                       <div className="studio-image">
-                        <img src={item.image} alt={t[item.titleKey]} />
+                        <img
+                          src={item.overviewImage ?? item.image}
+                          alt={t[item.titleKey]}
+                        />
                         {item.aiModel ? (
                           <span className="studio-ai-tag">
                             {item.category === "swimwear" ? t.aiTag : t.metaAi}
@@ -528,7 +533,9 @@ export default function Studio() {
                         ) : item.metaKey !== "metaAi" ? (
                           <span>
                             {t[
-                              item.metaKey as
+                              (item.overviewImage
+                                ? "metaEditorial"
+                                : item.metaKey) as
                                 | "metaFilm"
                                 | "metaEditorial"
                                 | "metaProduct"
