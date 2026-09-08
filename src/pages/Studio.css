@@ -303,6 +303,12 @@
   gap: 0.75rem;
 }
 
+.studio-campaigns {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
 .studio-grid-all {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.25rem;

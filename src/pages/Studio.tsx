@@ -13,10 +13,25 @@ type WorkItem = {
   id: string;
   category: Exclude<CategoryId, "all">;
   image: string;
+  campaign?: string;
+  teaser?: boolean;
   aiModel?: boolean;
   titleKey: "catSwimwear" | "catBeauty" | "catJewelry" | "catFashion";
   metaKey: "metaFilm" | "metaIoni" | "metaEditorial" | "metaProduct" | "metaAi" | "metaStillLife";
 };
+
+function groupCampaigns(items: WorkItem[]): WorkItem[][] {
+  const groups: WorkItem[][] = [];
+  for (const item of items) {
+    const last = groups[groups.length - 1];
+    if (last && last[0].campaign === item.campaign) {
+      last.push(item);
+    } else {
+      groups.push([item]);
+    }
+  }
+  return groups;
+}
 
 const categoryIds: { id: CategoryId; labelKey: keyof Dictionary }[] = [
   { id: "all", labelKey: "catAll" },
@@ -28,17 +43,10 @@ const categoryIds: { id: CategoryId; labelKey: keyof Dictionary }[] = [
 
 const work: WorkItem[] = [
   {
-    id: "fashion-13",
-    category: "fashion",
-    image: "/work/fashion-13.jpg",
-    aiModel: true,
-    titleKey: "catFashion",
-    metaKey: "metaEditorial",
-  },
-  {
     id: "fashion-14",
     category: "fashion",
     image: "/work/fashion-14.jpg",
+    campaign: "yellow-gown",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaProduct",
@@ -47,6 +55,7 @@ const work: WorkItem[] = [
     id: "fashion-15",
     category: "fashion",
     image: "/work/fashion-15.jpg",
+    campaign: "yellow-gown",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -55,6 +64,7 @@ const work: WorkItem[] = [
     id: "fashion-16",
     category: "fashion",
     image: "/work/fashion-16.jpg",
+    campaign: "yellow-gown",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -63,6 +73,7 @@ const work: WorkItem[] = [
     id: "fashion-17",
     category: "fashion",
     image: "/work/fashion-17.jpg",
+    campaign: "yellow-gown",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -71,6 +82,17 @@ const work: WorkItem[] = [
     id: "fashion-18",
     category: "fashion",
     image: "/work/fashion-18.jpg",
+    campaign: "yellow-gown",
+    aiModel: true,
+    titleKey: "catFashion",
+    metaKey: "metaEditorial",
+  },
+  {
+    id: "fashion-13",
+    category: "fashion",
+    image: "/work/fashion-13.jpg",
+    campaign: "menswear",
+    teaser: true,
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -79,6 +101,7 @@ const work: WorkItem[] = [
     id: "fashion-1",
     category: "fashion",
     image: "/work/fashion-01.png",
+    campaign: "menswear",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -87,6 +110,7 @@ const work: WorkItem[] = [
     id: "fashion-2",
     category: "fashion",
     image: "/work/fashion-02.png",
+    campaign: "menswear",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -95,6 +119,7 @@ const work: WorkItem[] = [
     id: "fashion-3",
     category: "fashion",
     image: "/work/fashion-03.png?v=2",
+    campaign: "menswear",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -103,6 +128,7 @@ const work: WorkItem[] = [
     id: "fashion-4",
     category: "fashion",
     image: "/work/fashion-04.png",
+    campaign: "menswear",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -111,6 +137,7 @@ const work: WorkItem[] = [
     id: "fashion-7",
     category: "fashion",
     image: "/work/fashion-07.png",
+    campaign: "activewear",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -119,6 +146,7 @@ const work: WorkItem[] = [
     id: "fashion-8",
     category: "fashion",
     image: "/work/fashion-08.png",
+    campaign: "activewear",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -127,6 +155,7 @@ const work: WorkItem[] = [
     id: "fashion-9",
     category: "fashion",
     image: "/work/fashion-09.png",
+    campaign: "activewear",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -135,6 +164,7 @@ const work: WorkItem[] = [
     id: "fashion-10",
     category: "fashion",
     image: "/work/fashion-10.png",
+    campaign: "activewear",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -143,6 +173,7 @@ const work: WorkItem[] = [
     id: "fashion-11",
     category: "fashion",
     image: "/work/fashion-11.jpg",
+    campaign: "heels",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaProduct",
@@ -151,6 +182,7 @@ const work: WorkItem[] = [
     id: "fashion-12",
     category: "fashion",
     image: "/work/fashion-12.jpg",
+    campaign: "heels",
     aiModel: true,
     titleKey: "catFashion",
     metaKey: "metaEditorial",
@@ -308,9 +340,15 @@ export default function Studio() {
   const visible =
     category === "all"
       ? (["fashion", "swimwear", "beauty", "jewelry"] as const)
-          .map((cat) => work.find((item) => item.category === cat))
+          .map(
+            (cat) =>
+              work.find((item) => item.category === cat && item.teaser) ??
+              work.find((item) => item.category === cat),
+          )
           .filter((item): item is WorkItem => Boolean(item))
       : work.filter((item) => item.category === category);
+
+  const rows = category === "all" ? [visible] : groupCampaigns(visible);
 
   const gridClass =
     category === "all" ? "studio-grid studio-grid-all" : "studio-grid";
@@ -408,16 +446,18 @@ export default function Studio() {
           {visible.length === 0 ? (
             <p className="studio-work-empty">{t.workEmpty}</p>
           ) : (
-            <div className={gridClass}>
-              {visible.map((item) => (
-                <article
-                  key={item.id}
-                  className={
-                    category === "all"
-                      ? "studio-item studio-item-link"
-                      : "studio-item"
-                  }
-                >
+            <div className={category === "all" ? undefined : "studio-campaigns"}>
+              {rows.map((row) => (
+                <div key={row[0].id} className={gridClass}>
+                  {row.map((item) => (
+                    <article
+                      key={item.id}
+                      className={
+                        category === "all"
+                          ? "studio-item studio-item-link"
+                          : "studio-item"
+                      }
+                    >
                   {category === "all" ? (
                     <button
                       type="button"
@@ -485,6 +525,8 @@ export default function Studio() {
                     </>
                   )}
                 </article>
+                  ))}
+                </div>
               ))}
             </div>
           )}
