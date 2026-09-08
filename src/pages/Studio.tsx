@@ -90,7 +90,7 @@ const work: WorkItem[] = [
   {
     id: "fashion-14",
     category: "fashion",
-    image: "/work/fashion-14.jpg",
+    image: "/work/fashion-14.jpg?v=2",
     campaign: "yellow-gown",
     aiModel: true,
     titleKey: "catFashion",
