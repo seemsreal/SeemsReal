@@ -16,7 +16,7 @@ type LanguageContextValue = {
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 
-const STORAGE_KEY = "seemsreal-lang";
+const STORAGE_KEY = "seemsreal-lang-v2";
 
 function readStoredLang(): Lang {
   const stored = window.localStorage.getItem(STORAGE_KEY);
